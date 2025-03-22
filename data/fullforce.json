@@ -1,0 +1,42 @@
+{
+    "id": 1323,
+    "name": "FULL FORCE",
+    "author": "Diamond",
+    "creators": ["Diamond"],
+    "verifier": "Diamond",
+    "verification": "https://www.youtube.com/watch?v=4BDEu5SxTzg",
+    "percentToQualify": 100,
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user":"Birbyn",
+            "link":"https://www.youtube.com/watch?v=3ikU0Oncny8",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"peiceawrk",
+            "link":"https://www.youtube.com/watch?v=QB4-yRtD54M",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"WaterArch",
+            "link":"https://youtu.be/xHiBYLTsFgc",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"Void",
+            "link":"https://youtu.be/guLgTIKVcdg",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"Macaroni & Games",
+            "link":"https://youtu.be/PFd5phAGNdg",
+            "percent":100,
+            "hz":60
+         }
+    ]
+}

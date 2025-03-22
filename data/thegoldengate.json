@@ -1,0 +1,54 @@
+{
+    "id": 1311,
+    "name": "The Golden Gates",
+    "author": "TimTomT",
+    "creators": ["TimTomT"],
+    "verifier": "TimTomT",
+    "verification": "https://youtu.be/ixwI4RsxDvc?si=FkiVLhdfPDEbV0DL",
+    "percentToQualify": "100",
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user":"Void",
+            "link":"https://youtu.be/kSM2X52UX3s",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"WaterArch",
+            "link":"https://youtu.be/pB57LC9mH40",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"Kxi",
+            "link":"https://www.youtube.com/watch?v=yzHbUqeshYQ",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"is1g",
+            "link":"https://www.youtube.com/watch?v=icdNOMDRumo",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"spnv",
+            "link":"https://www.youtube.com/watch?v=kslCyQtmwrk",
+            "percent":100,
+            "hz":240
+         },
+        {
+            "user":"Overtruff",
+            "link":"https://www.youtube.com/watch?v=Brz9h5bfTm0",
+            "percent":100,
+            "hz":240
+         },
+        {
+            "user":"TurboFlash",
+            "link":"https://www.youtube.com/watch?v=bUk4nzoHGCc",
+            "percent":100,
+            "hz":120
+         }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "id": 1939,
+    "name": "constipation",
+    "author": "HelloEveryone",
+    "creators": ["HelloEveryone"],
+    "verifier": "BABAGD",
+    "verification": "https://youtu.be/qJUuEC2Vg9Y?si=6Pf9MeAQf36rzyav",
+    "percentToQualify": 100,
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user":"WaterArch",
+            "link":"https://www.youtube.com/watch?v=bv8pyppQCCY",
+            "percent":100,
+            "hz":60
+         },
+        {
+            "user":"spnv",
+            "link":"https://www.youtube.com/watch?v=5-I5yCpzWWw",
+            "percent":100,
+            "hz":240
+         },
+        {
+            "user":"BBM",
+            "link":"https://www.youtube.com/watch?v=hDgdg_Rtwl4",
+            "percent":100,
+            "hz":60
+         },
+        {
+            "user":"poulen",
+            "link":"https://www.youtube.com/watch?v=tRIVQ_G6-bs",
+            "percent":100,
+            "hz":240
+         }
+    ]
+}

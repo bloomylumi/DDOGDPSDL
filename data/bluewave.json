@@ -1,0 +1,48 @@
+{
+    "id": 2264,
+    "name": "Blue Wave",
+    "author": "ioi890",
+    "creators": ["ioi890"],
+    "verifier": "GTshitpost",
+    "verification": "https://youtu.be/W0W6zjJMVYY?si=Wj45Y7Oi6exfjPym",
+    "percentToQualify": "100",
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user":"Void",
+            "link":"https://youtu.be/09lJ77PtpsE",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"SoySalvaa35",
+            "link":"https://www.youtube.com/watch?v=gf_Ow0kioj0",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"spnv",
+            "link":"https://www.youtube.com/watch?v=Y2-bAQOGOV4",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"is1g",
+            "link":"https://www.youtube.com/watch?v=IdksBZ9f8Aw",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"Macaroni & Games",
+            "link":"https://youtu.be/8CJi4qk5fx0",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"games",
+            "link":"https://youtu.be/mThJkO6_Eio",
+            "percent":100,
+            "hz":144
+         }
+    ]
+}

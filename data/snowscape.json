@@ -1,0 +1,24 @@
+{
+    "id": 1283,
+    "name": "SNOWSCAPE",
+    "author": "BABAGD",
+    "creators": ["BABAGD, Kxi"],
+    "verifier": "Kxi",
+    "verification": "https://www.youtube.com/watch?v=t9J4NzYvF7M",
+    "percentToQualify": 100,
+    "password": "Not Copyable",
+    "records": [
+      {
+            "user":"aloaf",
+            "link":"https://www.youtube.com/watch?v=ptbrTWqs9NE",
+            "percent":100,
+            "hz":240
+         },
+        {
+            "user":"TurboFlash",
+            "link":"https://www.youtube.com/watch?v=gUm0sVFwxa8",
+            "percent":100,
+            "hz":120
+         }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "id": 1346,
+    "name": "Eightos",
+    "author": "Kkirbyy",
+    "creators": ["Kkirbyy"],
+    "verifier": "Kkirbyy",
+    "verification": "https://youtu.be/3UVnczquRNo?si=916IORK9Ij_80iBc",
+    "percentToQualify": "100",
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user":"Birbyn",
+            "link":"https://www.youtube.com/watch?v=w-wHn96fgJE",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"peiceawrk",
+            "link":"https://www.youtube.com/watch?v=0xi6BQodaWE",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"Void",
+            "link":"https://youtu.be/cYTgcueiMRY",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"WaterArch",
+            "link":"https://youtu.be/SQgAPMI1ghE",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"Kxi",
+            "link":"https://www.youtube.com/watch?v=4O7Wa0pKiSM",
+            "percent":100,
+            "hz":240
+         }
+    ]
+}

@@ -1,0 +1,98 @@
+{
+    "id": 1325,
+    "name": "Crash N Burn",
+    "author": "Diamond",
+    "creators": ["Diamond"],
+    "verifier": "Diamond",
+    "verification": "https://www.youtube.com/watch?v=15kJNAZJPEk",
+    "percentToQualify": 100,
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user":"Birbyn",
+            "link":"https://youtu.be/i8epd_AXtqY",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"peiceawrk",
+            "link":"https://www.youtube.com/watch?v=NFpHDiEFizc",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"Ryic24",
+            "link":"https://www.youtube.com/watch?v=r8VwEOSTKII",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"Macaroni & Games",
+            "link":"https://www.youtube.com/watch?v=RHNCmGFVB7A",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"Jacopurrino",
+            "link":"https://www.youtube.com/watch?v=WungBO_gdJE",
+            "percent":100,
+            "hz":75
+         },
+         {
+            "user":"Void",
+            "link":"https://youtu.be/aHe07nvqBRk",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"TrickeryGD",
+            "link":"https://youtu.be/d7ivxCWgw2U",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"WaterArch",
+            "link":"https://youtu.be/QugziU14EM4",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"Kxi",
+            "link":"https://www.youtube.com/watch?v=kiBzQwg9_LM",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"RobTopGames",
+            "link":"https://youtu.be/ePKrYnJZ-KU?si=eZKv65YDPOCuf9Rk",
+            "percent":100,
+            "hz":60,
+            "mobile":true
+         },
+         {
+            "user":"is1g",
+            "link":"https://www.youtube.com/watch?v=f9wNY_Nk6wA",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"Jackdag",
+            "link":"https://www.youtube.com/watch?v=iE1k16sI6ow",
+            "percent":100,
+            "hz":60
+         },
+        {
+            "user":"aloaf",
+            "link":"https://www.youtube.com/watch?v=sA_mI3g8Dck",
+            "percent":100,
+            "hz":240
+         },
+        {
+            "user":"Atom",
+            "link":"https://www.youtube.com/watch?v=uKc8zdiwH4c",
+            "percent":100,
+            "hz":60
+         }
+    ]
+
+}

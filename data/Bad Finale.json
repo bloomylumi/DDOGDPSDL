@@ -1,0 +1,18 @@
+{
+    "id": 3733,
+    "name": "Bad Finale",
+    "author": "Dodecahedron11",
+    "creators": ["Dodecahedron11"],
+    "verifier": "WaterArch",
+    "verification": "https://www.youtube.com/watch?v=J7wlRGpXldw",
+    "percentToQualify": "74",
+    "password": "Free Copy",
+    "records": [
+	{
+	    "user":"Atom",
+	    "link":"https://www.youtube.com/watch?v=WLGxCuuwGpc",
+	    "percent":100,
+	    "hz":60
+	}
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "id": 1354,
+    "name": "ROSE",
+    "author": "BABAGD",
+    "creators": ["BABAGD"],
+    "verifier": "BABAGD",
+    "verification": "https://youtu.be/r0j46EYfe8U?si=To_jD6T6ve_zWsnU",
+    "percentToQualify": "100",
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user":"WaterArch",
+            "link":"https://youtu.be/8APhBvOvA0c",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"games",
+            "link":"https://youtu.be/sLmWZLMPxf4",
+            "percent":100,
+            "hz":144
+         }
+    ]
+}

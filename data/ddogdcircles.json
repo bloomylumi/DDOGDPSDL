@@ -1,0 +1,42 @@
+{
+    "id": 1004,
+    "name": "Ddogd circles",
+    "author": "Kxi",
+    "creators": ["Kxi"],
+    "verifier": "Kxi",
+    "verification": "https://www.youtube.com/watch?v=A2P35TP1Z8I",
+    "percentToQualify": 100,
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user":"SoySalvaa35",
+            "link":"https://www.youtube.com/watch?v=7CvBCfDCF5c",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"Void",
+            "link":"https://youtu.be/jPQPrFJ5Q3g",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"Macaroni & Games",
+            "link":"https://youtu.be/zvHyjlRcN9k",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"WaterArch",
+            "link":"https://youtu.be/smw2-N1g7N8",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"games",
+            "link":"https://youtu.be/x93maRNfrZE",
+            "percent":100,
+            "hz":144
+         }
+    ]
+}

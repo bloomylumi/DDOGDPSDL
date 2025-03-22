@@ -1,0 +1,19 @@
+{
+    "id": 3849,
+    "name": "The Gate",
+    "author": "wil0w",
+    "creators": ["wil0w"],
+    "verifier": "lilcanez",
+    "verification": "https://www.youtube.com/watch?v=qsLynSbtwgk",
+    "percentToQualify": 70,
+    "password": "Free Copy",
+    "records": [
+     {
+            "user":"TurboFlash",
+            "link":"https://www.youtube.com/watch?v=jVumueyD9b8",
+            "percent":100,
+            "hz":120
+         }
+    ]
+
+}

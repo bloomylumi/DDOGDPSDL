@@ -1,0 +1,42 @@
+{
+    "id": 1900,
+    "name": "Kxi Island",
+    "author": "Kxi",
+    "creators": ["Kxi"],
+    "verifier": "Kxi",
+    "verification": "https://youtu.be/6IheJLps7y4?si=u3KJZPgL2ohIibpF",
+    "percentToQualify": "100",
+    "password": "Not Copyable",
+    "records": [
+        {
+        "user":"Void",
+        "link":"https://www.youtube.com/watch?v=qZsgi45v3eg",
+        "percent":100,
+        "hz":60
+     },
+     {
+        "user":"WaterArch",
+        "link":"https://youtu.be/LpJQWur_EuA",
+        "percent":100,
+        "hz":60
+     },
+     {
+        "user":"Birbyn",
+        "link":"https://youtu.be/5we4ZsFhgcY?si=QAG0MtD8WjFpBIyz",
+        "percent":100,
+        "hz":240
+     },
+     {
+      "user":"Macaroni & Games",
+      "link":"https://youtu.be/YRxcXoGjRKk",
+      "percent":100,
+      "hz":165
+   },
+   {
+      "user":"games",
+      "link":"https://youtu.be/dd-FHxclOxs",
+      "percent":100,
+      "hz":144
+   }
+    ]
+}

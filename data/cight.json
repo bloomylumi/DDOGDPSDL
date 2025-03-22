@@ -1,0 +1,24 @@
+{
+    "id": 1945,
+    "name": "C   I   G   H   T",
+    "author": "Semify",
+    "creators": ["Semify, Kirby"],
+    "verifier": "Semify",
+    "verification": "https://youtu.be/CTI6SiiStRQ",
+    "percentToQualify": "100",
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user":"games",
+            "link":"https://youtu.be/ORL2FUVul8w",
+            "percent":100,
+            "hz":144
+         },
+        {
+            "user":"Void",
+            "link":"https://youtu.be/FpkvOnIsiIQ",
+            "percent":100,
+            "hz":60
+         }
+    ]
+}

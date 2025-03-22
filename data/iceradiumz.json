@@ -1,0 +1,67 @@
+{
+    "id": 1655,
+    "name": "Ice Radium Diablo V",
+    "author": "Solstice",
+    "creators": ["Solstice"],
+    "verifier": "Solstice",
+    "verification": "https://www.youtube.com/watch?v=0AMQzrH13CQ",
+    "percentToQualify": "100",
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user":"Birbyn",
+            "link":"https://youtu.be/aoEdq_H2hSg",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"NixHeatcliff",
+            "link":"https://www.youtube.com/watch?v=q2B7_vHMt9c",
+            "percent":100,
+            "hz":144
+         },
+         {
+            "user":"Lunar1sque",
+            "link":"https://youtube.com/shorts/K_t-_FCBPLo?si=7gqageQyvypgNtlr",
+            "percent":100,
+            "hz":75
+         },
+         {
+            "user":"BABAGD",
+            "link":"https://youtu.be/vhu1_udQ4ys?si=6sPlQFfoNuUmlPaM",
+            "percent":100,
+            "hz":120
+         },
+         {
+            "user":"WaterArch",
+            "link":"https://youtu.be/eexSVuRcC98",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"Efe",
+            "link":"https://www.youtube.com/watch?v=Iq4tskEcM4I",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"Void",
+            "link":"https://www.youtube.com/watch?v=_TDb0C8mBvg",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"Kxi",
+            "link":"https://youtu.be/xTunBZ2ZMEM",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"Overtruff",
+            "link":"https://www.youtube.com/watch?v=7NbzTA0iGGg",
+            "percent":100,
+            "hz":240
+         }
+         
+    ]
+}

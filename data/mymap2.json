@@ -1,0 +1,18 @@
+{
+    "id": 1970,
+    "name": "My Map 2",
+    "author": "Diamond",
+    "creators": ["Diamond"],
+    "verifier": "Diamond",
+    "verification": "https://youtu.be/96j7u3hAXf0?feature=shared",
+    "percentToQualify": "100",
+    "password": "Not Copyable",
+    "records": [
+        {
+            "user":"games",
+            "link":"https://youtu.be/b9h3c_E66GU",
+            "percent":100,
+            "hz":144
+         }
+    ]
+}

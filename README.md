@@ -1,4 +1,4 @@
-# Welcome to the Geometry Dash Shitty List template!
+# Welcome to the DDOGDPS Demonlist GitHub Repository!
 
 # FAQ
 
@@ -40,9 +40,7 @@ What are some common reasons for the website not loading?
 
 ---
 
-## More Coming Soon!
-
 ## Repo Maintainers:
 
-- Prometheus
-- Emonadeo
+- aloaf
+- Monstrosity
