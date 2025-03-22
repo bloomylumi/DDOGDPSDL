@@ -1,6 +1,11 @@
 [
     {
         "role": "owner",
+        "name": "bloomylumi",
+        "link": "https://www.youtube.com/@bloomylumi"
+    },
+    {
+        "role": "owner",
         "name": "aloaf",
         "link": "https://www.youtube.com/@aloaf812"
     },
