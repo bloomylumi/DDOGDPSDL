@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
+        {
+            "user":"lilcanez",
+            "link":"https://youtu.be/bwPtsIVN8wo?si=SKwSu1g2ru-av2qj",
+            "percent":100,
+            "hz":144
+        }
     ]
 }

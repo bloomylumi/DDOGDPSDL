@@ -8,6 +8,11 @@
     "percentToQualify": 100,
     "password": "Not Copyable",
     "records": [
-      
+        {
+            "user":"WaterArch",
+            "link":"https://www.youtube.com/watch?v=NxdHbTHkwBw",
+            "percent":100,
+            "hz":144
+        }
     ]
 }
