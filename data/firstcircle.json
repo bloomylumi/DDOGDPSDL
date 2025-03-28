@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
+        {
+            "user":"DarthSkril",
+            "link":"https://www.youtube.com/watch?v=B7CURQ_TyE4",
+            "percent":100,
+            "hz":144
+         }
     ]
 }
