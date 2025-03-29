@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
+        {
+            "user":"PixelCliffs5",
+            "link":"https://youtu.be/7eNq97YaqWw",
+            "percent":100,
+            "hz":240
+         }
     ]
 }
