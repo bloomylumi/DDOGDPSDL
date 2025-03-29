@@ -3,10 +3,28 @@
     "name": "Aqua Wave",
     "author": "Space34",
     "creators": ["Space34"],
-    "verifier": "TurboFlash",
-    "verification": "https://youtu.be/zJ6kTVgE-BY?si=NPVnmvLBPKvDGbfC%C2%B5",
+    "verifier": "spnv",
+    "verification": "https://www.youtube.com/watch?v=qjq1yxWXx3I",
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
+        {
+            "user":"PixelCliffs5",
+            "link":"https://youtu.be/wTHH-tPQ6gg",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"TurboFlash",
+            "link":"https://youtu.be/zJ6kTVgE-BY?si=NPVnmvLBPKvDGbfC%C2%B5",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"lilcanez",
+            "link":"https://youtu.be/ZtZndTNz-HY?si=8FigRJH6IPiW1Bgh",
+            "percent":100,
+            "hz":165
+         }
     ]
 }
