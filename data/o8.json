@@ -8,5 +8,17 @@
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
+        {
+            "user":"Minotaur256",
+            "link":"https://www.youtube.com/watch?v=vlJ5ENRKRQU",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"IL0vePurple",
+            "link":"https://www.youtube.com/watch?v=V9HBho8MyyY",
+            "percent":100,
+            "hz":240
+         }
     ]
 }
