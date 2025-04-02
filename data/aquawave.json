@@ -16,15 +16,22 @@
          },
          {
             "user":"TurboFlash",
-            "link":"https://youtu.be/zJ6kTVgE-BY?si=NPVnmvLBPKvDGbfC%C2%B5",
+            "link":"https://youtu.be/zJ6kTVgE-BY",
             "percent":100,
             "hz":60
          },
          {
             "user":"lilcanez",
-            "link":"https://youtu.be/ZtZndTNz-HY?si=8FigRJH6IPiW1Bgh",
+            "link":"https://youtu.be/ZtZndTNz-HY",
             "percent":100,
             "hz":165
+         },
+         {
+            "user":"Mscr14",
+            "link":"https://www.youtube.com/watch?v=BY6e9V9unsU",
+            "percent":100,
+            "hz":360
          }
+         
     ]
 }
