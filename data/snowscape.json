@@ -25,6 +25,24 @@
             "link":"https://youtu.be/KpHzFk_pVXY",
             "percent":100,
             "hz":60
+         },
+         {
+            "user":"WaterArch",
+            "link":"https://www.youtube.com/watch?v=uSpb8a4cZZw",
+            "percent":100,
+            "hz":60
+         },
+         {
+            "user":"Minotaur",
+            "link":"https://youtu.be/B6ou1QYiyjk ",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"Takoe",
+            "link":"https://youtu.be/v_MPm96PqWo",
+            "percent":100,
+            "hz":60
          }
     ]
 }
