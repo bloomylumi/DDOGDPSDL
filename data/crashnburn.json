@@ -128,6 +128,12 @@
             "link":"https://www.youtube.com/watch?v=2pnj-30NCdw",
             "percent":100,
             "hz":60
+         },
+         {
+            "user":"games",
+            "link":"https://www.youtube.com/watch?v=1CedzHqJb54",
+            "percent":100,
+            "hz":144
          }
     ]
 
