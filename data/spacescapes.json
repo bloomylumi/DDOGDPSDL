@@ -8,6 +8,11 @@
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
-        
+        {
+            "user":"spnv",
+            "link":"https://youtu.be/Rovqy5fHyVY",
+            "percent":100,
+            "hz":240
+        }
     ]
 }

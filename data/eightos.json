@@ -43,6 +43,18 @@
             "link":"https://youtu.be/nmBg85EZM_0",
             "percent":100,
             "hz":60
+         },
+         {
+            "user":"spnv",
+            "link":"https://youtu.be/IqPD5z_MAMo",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"Macaroni & Games",
+            "link":"https://youtu.be/h1wZYqVXi1M",
+            "percent":100,
+            "hz":165
          }
     ]
 }

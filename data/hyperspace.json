@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
+        {
+            "user":"ExtremeSpe98",
+            "link":"https://www.youtube.com/watch?v=WpX5EIBey8Q",
+            "percent":100,
+            "hz":60
+         }
     ]
 }
