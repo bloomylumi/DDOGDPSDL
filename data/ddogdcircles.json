@@ -49,6 +49,12 @@
             "link":"https://www.youtube.com/watch?v=Jpqt385O9jA",
             "percent":100,
             "hz":144
+         },
+         {
+            "user":"cheesedude",
+            "link":"https://youtu.be/K2C40dsfJ3o?si=PDuT1Mh_Rg_YwrO4",
+            "percent":100,
+            "hz":60
          }
     ]
 }
