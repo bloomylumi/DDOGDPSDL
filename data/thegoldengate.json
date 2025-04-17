@@ -85,6 +85,14 @@
             "link":"https://youtu.be/zysDfrRl3go",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"JDPro",
+            "link":"https://youtu.be/WQ3Ao7xk0tc?si=jDCsrqgyirAoRGGM",
+            "percent":100,
+            "hz":90,
+            "mobile":true
          }
+
     ]
 }
