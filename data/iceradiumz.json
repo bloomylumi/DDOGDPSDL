@@ -85,7 +85,12 @@
             "link":"https://www.youtube.com/watch?v=vYT5qPuTyjc",
             "percent":100,
             "hz":60
+         },
+         {
+            "user":"MirrorGD",
+            "link":"https://youtu.be/l4RxlQgNB6c",
+            "percent":100,
+            "hz":240
          }
-         
     ]
 }
