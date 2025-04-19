@@ -19,6 +19,12 @@
             "link":"https://www.youtube.com/watch?v=-ZhKH9ATm0w",
             "percent":100,
             "hz":360
+        },
+        {
+            "user":"games",
+            "link":"https://youtu.be/br8e842wNUo",
+            "percent":100,
+            "hz":144
         }
     ]
 }
