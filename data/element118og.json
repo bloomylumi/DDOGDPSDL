@@ -8,5 +8,12 @@
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
+         {
+            "user":"JDPro",
+            "link":"https://youtu.be/_laIWSgzFNU?si=QgeuVJEj6DJAKH5m",
+            "percent":100,
+            "hz":90,
+            "mobile": true
+         }
     ]
 }
