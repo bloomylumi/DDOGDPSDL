@@ -1,0 +1,18 @@
+{
+    "id": 4926,
+    "name": "Dementia Processing",
+    "author": "AAAAAAAAA",
+    "creators": ["AAAAAAAAA"],
+    "verifier": "Ztroxxi",
+    "verification": "https://youtu.be/IlPOiZhYskA?feature=shared",
+    "percentToQualify": 100,
+    "password": "Copyable",
+    "records": [
+        {
+            "user": "Minotaur256",
+            "link": "https://youtu.be/8M2mB72_6Q4?si=L2cVwq1QYJZv2oCo",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
