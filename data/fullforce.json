@@ -61,6 +61,13 @@
             "link":"https://www.youtube.com/watch?v=zzvtR6RvJnQ",
             "percent":100,
             "hz":180
+         },
+         {
+            "user":"TheInsanePro",
+            "link":"https://youtu.be/wE2aU1af9l8",
+            "percent":100,
+            "hz":60
          }
+
     ]
 }
