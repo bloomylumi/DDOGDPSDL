@@ -1,24 +1,24 @@
 {
-    "id": 4926,
-    "name": "Dementia Processing",
-    "author": "AAAAAAAAA",
-    "creators": ["AAAAAAAAA"],
-    "verifier": "Ztroxxi",
-    "verification": "https://youtu.be/IlPOiZhYskA?feature=shared",
-    "percentToQualify": 100,
-    "password": "Copyable",
-    "records": [
+    "id":4926,
+    "name":"Dementia Processing",
+    "author":"AAAAAAAAA",
+    "creators":["AAAAAAAAA"],
+    "verifier":"Ztroxxi",
+    "verification":"https://www.youtube.com/watch?v=IlPOiZhYskA",
+    "percentToQualif":100,
+    "password":"Free Copy",
+    "records":[
         {
-            "user": "Minotaur256",
-            "link": "https://www.youtube.com/watch?v=8M2mB72_6Q4",
-            "percent": 100,
-            "hz": 240
+            "user":"Minotaur256",
+            "link":"https://www.youtube.com/watch?v=8M2mB72_6Q4",
+            "percent":100,
+            "hz":240
         },
         {
-            "user": "spnv",
-            "link": "https://www.youtube.com/watch?v=AjTzq0UpF8Q",
-            "percent": 100,
-            "hz": 240
+            "user":"spnv",
+            "link":"https://www.youtube.com/watch?v=AjTzq0UpF8Q",
+            "percent":100,
+            "hz":240
         }
     ]
 }
