@@ -15,10 +15,11 @@
             "hz":240
          },
          {
-            "user":"MirrorGD",
+            "user":"JDPro",
             "link":"https://youtu.be/UAk2E0Uq8Io?si=llP8gY5on06bxZgZ",
             "percent":100,
-            "hz":240
+            "hz":90,
+            "mobile":true
          }
     ]
 }
