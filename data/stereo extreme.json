@@ -19,6 +19,12 @@
             "link":"https://www.youtube.com/watch?v=prUQtPQztN8",
             "percent":100,
             "hz":165
+         },
+         {
+            "user":"MirrorGD",
+            "link":"https://youtu.be/Yc9BlxubGVI",
+            "percent":100,
+            "hz":240
          }
     ]
 }
