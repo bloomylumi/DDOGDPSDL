@@ -10,10 +10,16 @@
     "records": [
          {
             "user":"JDPro",
-            "link":"https://youtu.be/_laIWSgzFNU?si=QgeuVJEj6DJAKH5m",
+            "link":"https://www.youtube.com/watch?v=_laIWSgzFNU",
             "percent":100,
             "hz":90,
             "mobile": true
+         },
+         {
+            "user":"TurboFlash",
+            "link":"https://www.youtube.com/watch?v=JbbB54hjtVc",
+            "percent":100,
+            "hz":60
          }
     ]
 }
