@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
+        {
+            "user":"nik14k",
+            "link":"https://www.youtube.com/watch?v=DeIfMJ5gU-E",
+            "percent":100,
+            "hz":240
+         }
          ]
 }
