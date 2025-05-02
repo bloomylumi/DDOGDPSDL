@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+         {
+            "user":"Vergit",
+            "link":"https://youtu.be/5TaPMTUZPEU",
+            "percent":100,
+            "hz":240
+         }
     ]
 }
