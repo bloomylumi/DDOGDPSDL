@@ -10,9 +10,15 @@
     "records": [
          {
             "user":"lilcanez",
-            "link":"https://youtu.be/rC5YYTihc-c?si=O1-XpCs7si6hiiJs",
+            "link":"https://www.youtube.com/watch?v=rC5YYTihc-c",
             "percent":100,
             "hz":144
+         },
+         {
+            "user":"Vergit",
+            "link":"https://www.youtube.com/watch?v=NB33vALVPLA",
+            "percent":100,
+            "hz":240
          }
     ]
 }

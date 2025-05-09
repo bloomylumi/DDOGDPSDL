@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
+        {
+            "user":"MirrorGD",
+            "link":"https://www.youtube.com/watch?v=rX4o_p6EPcY",
+            "percent":100,
+            "hz":240
+         }
     ]
 }
