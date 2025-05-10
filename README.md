@@ -42,5 +42,5 @@ What are some common reasons for the website not loading?
 
 ## Repo Maintainers:
 
+- lumi
 - aloaf
-- Monstrosity
