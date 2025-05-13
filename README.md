@@ -6,6 +6,10 @@
 
 ### Website FAQ
 
+Who runs the website?
+
+- The DDOGDPS demonlist staff and some moderators over at the Discord server (which you can join [here](https://discord.gg/ddogd)) 
+
 Can I use the Shitty List template?
 
 - Sure. Credits to the shitty list are embedded onto this template so keep that in.
@@ -40,7 +44,3 @@ What are some common reasons for the website not loading?
 
 ---
 
-## Repo Maintainers:
-
-- lumi
-- aloaf
