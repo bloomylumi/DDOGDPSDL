@@ -1,12 +1,18 @@
 {
-    "id": 8071,
-    "name": "ChickenJockeyCircles",
-    "author": "Vergit",
-    "creators": ["Macaroni & Games, Vergit"],
-    "verifier": "Macaroni & Games",
-    "verification": "https://youtu.be/G6HRttrPynA",
-    "percentToQualify": "100",
+    "id": 6847,
+    "name": "waaa",
+    "author": "Gixin",
+    "creators": ["Gixin"],
+    "verifier": "Gixin",
+    "verification": "https://www.youtube.com/watch?v=NyP_1AV2yFk",
+    "percentToQualify": "80",
     "password": "Free Copy",
     "records": [
+        {
+            "user":"nik14k",
+            "link":"https://youtu.be/wI9efe_9ZN8?feature=shared",
+            "percent":100,
+            "hz":240
+        }
     ]
 }
