@@ -25,6 +25,12 @@
             "link":"https://www.youtube.com/watch?v=lHeE3Du096M",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"xuma",
+            "link":"https://youtu.be/0kMaoIcQD7U",
+            "percent":100,
+            "hz":180
          }
     ]
 }
