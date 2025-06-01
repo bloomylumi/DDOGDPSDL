@@ -98,6 +98,13 @@
             "link":"https://youtu.be/v_oNLcwJNLI",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"VeryFunkyGuy",
+            "link":"https://www.youtube.com/watch?v=9VU5mLOwKvs",
+            "percent":100,
+            "hz":120,
+            "mobile":true
          }
     ]
 }
