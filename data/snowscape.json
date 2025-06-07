@@ -105,6 +105,12 @@
             "percent":100,
             "hz":120,
             "mobile":true
+         },
+         {
+            "user":"trickgmd",
+            "link":"https://youtu.be/-gcIOM1ogvs",
+            "percent":100,
+            "hz":60
          }
     ]
 }
