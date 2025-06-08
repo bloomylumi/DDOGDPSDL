@@ -110,6 +110,12 @@
             "percent":100,
             "hz":60,
             "mobile":true
+        },
+         {
+            "user":"trickgmd",
+            "link":"https://youtube.com/shorts/YQtcLuZTZq4?feature=share",
+            "percent":100,
+            "hz":60
          }
     ]
 }
