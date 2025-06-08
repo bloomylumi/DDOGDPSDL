@@ -31,6 +31,12 @@
             "link":"https://www.youtube.com/watch?v=0MJB9KrBorA",
             "percent":100,
             "hz":240
+        },
+         {
+            "user":"trickgmd",
+            "link":"https://youtube.com/shorts/G8IesDsZydo?feature=share",
+            "percent":100,
+            "hz":60
          }
     ]
 }
