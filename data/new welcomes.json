@@ -13,6 +13,12 @@
             "link":"https://youtube.com/shorts/UyfXHGNAmyc?feature=share",
             "percent":100,
             "hz":60
+             },
+            {
+            "user":"Avern",
+            "link":"https://youtu.be/J_OgxJgwbrQ",
+            "percent":100,
+            "hz":240
          }
     ]
 }
