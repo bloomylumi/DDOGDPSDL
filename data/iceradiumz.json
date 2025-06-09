@@ -116,6 +116,12 @@
             "link":"https://youtube.com/shorts/YQtcLuZTZq4?feature=share",
             "percent":100,
             "hz":60
+        },
+         {
+            "user":"Avern",
+            "link":"sent in discord",
+            "percent":100,
+            "hz":240
          }
     ]
 }
