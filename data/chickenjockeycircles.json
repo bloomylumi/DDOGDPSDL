@@ -19,6 +19,12 @@
             "link":"https://www.youtube.com/watch?v=WQRTDuvlkuk",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"Avern",
+            "link":"https://youtu.be/1XhAlyCnsPM",
+            "percent":100,
+            "hz":240
          }
     ]
 }
