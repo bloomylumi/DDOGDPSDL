@@ -122,6 +122,12 @@
             "link":"https://youtu.be/AtCKRAjAa1M",
             "percent":100,
             "hz":240
+                     },
+         {
+            "user":"Lithium",
+            "link":"https://www.youtube.com/watch?v=3uM_m6ECLyE",
+            "percent":100,
+            "hz":144 
          }
     ]
 }
