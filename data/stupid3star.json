@@ -61,6 +61,12 @@
             "link":"https://youtube.com/shorts/18_GrnnB_10?feature=share",
             "percent":100,
             "hz":60
+         },
+         {
+            "user":"Avern",
+            "link":"https://www.youtube.com/watch?v=dIzT911Al4g",
+            "percent":100,
+            "hz":240
          }
     ]
 }

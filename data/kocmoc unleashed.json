@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+        {
+            "user":"CosmicIQ",
+            "link":"https://www.youtube.com/watch?v=V9KtXY7vecI",
+            "percent":100,
+            "hz":240
+         }
     ]
 }
