@@ -128,6 +128,12 @@
             "link":"https://www.youtube.com/watch?v=3uM_m6ECLyE",
             "percent":100,
             "hz":144 
+         },
+         {
+            "user":"LTG",
+            "link":"https://www.youtube.com/watch?v=svGY4fZDYLE",
+            "percent":100,
+            "hz":360
          }
     ]
 }
