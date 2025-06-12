@@ -50,6 +50,12 @@
             "link":"https://www.youtube.com/watch?v=lgW2TMhX0ZA",
             "percent":100,
             "hz":144
+         },
+         {
+            "user":"LTG",
+            "link":"https://www.youtube.com/watch?v=uUDpECuTegk",
+            "percent":100,
+            "hz":360
          }
     ]
 }
