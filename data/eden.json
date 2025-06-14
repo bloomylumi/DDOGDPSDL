@@ -13,6 +13,12 @@
             "link":"https://www.youtube.com/watch?v=6K9svzqo1_Q",
             "percent":100,
             "hz":144
+         },
+         {
+            "user":"CosmicIQ",
+            "link":"https://youtu.be/MWULufqAANI",
+            "percent":100,
+            "hz":240
          }
     ]
 }
