@@ -62,16 +62,22 @@
             "link":"https://www.youtube.com/watch?v=EyAfyA4Qsfo",
             "percent":100,
             "hz":180
-                      },
+         },
          {
             "user":"trickgmd",
             "link":"https://youtube.com/shorts/qXASXWjKPpE?feature=share",
             "percent":100,
             "hz":60
-                                   },
+         },
          {
             "user":"dimigmd",
             "link":"https://medal.tv/games/geometry-dash/clips/kuM0lppCYpNTpbzuB?invite=cr-MSxlakwsMjY2Mjc2NTk5",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"Minotaur256",
+            "link":"https://youtu.be/ULk33tP2xnE",
             "percent":100,
             "hz":240
          }
