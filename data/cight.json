@@ -5,7 +5,7 @@
     "creators": ["Semify, Kirby"],
     "verifier": "Semify",
     "verification": "https://youtu.be/CTI6SiiStRQ",
-    "percentToQualify": "80",
+    "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
         {
@@ -28,7 +28,13 @@
          },
          {
             "user":"nik14k",
-            "link":"https://youtu.be/MYFFR0Srw_Q?feature=shared",
+            "link":"https://youtu.be/MYFFR0Srw_Q",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"Avern",
+            "link":"https://www.youtube.com/watch?v=-bxZ0emTFCc",
             "percent":100,
             "hz":240
          }
