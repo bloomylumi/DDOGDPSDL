@@ -25,6 +25,18 @@
             "link":"https://www.youtube.com/watch?v=eLjYtMO6jvs",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"jrpresley08",
+            "link":"https://www.youtube.com/watch?v=XgjOjtES6Wg",
+            "percent":100,
+            "hz":120
+         },
+         {
+            "user":"Avern",
+            "link":"https://www.youtube.com/watch?v=UvOw4hMoN7Y",
+            "percent":100,
+            "hz":240
          }
     ]
 }

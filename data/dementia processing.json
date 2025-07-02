@@ -9,14 +9,14 @@
     "password":"Free Copy",
     "records":[
         {
-            "user": "Minotaur256",
-            "link":"https://www.youtube.com/watch?v=8M2mB72_6Q4",
+            "user": "spnv",
+            "link":"https://www.youtube.com/watch?v=AjTzq0UpF8Q",
             "percent":100,
             "hz":240
         },
         {
-            "user": "spnv",
-            "link":"https://www.youtube.com/watch?v=AjTzq0UpF8Q",
+            "user": "Minotaur256",
+            "link":"https://www.youtube.com/watch?v=8M2mB72_6Q4",
             "percent":100,
             "hz":240
         },
@@ -50,6 +50,13 @@
             "link":"https://youtu.be/Vqyx-Z7OMRY",
             "percent":100,
             "hz":165
+            
+         },
+         {
+            "user":"jrpresley08",
+            "link":"https://www.youtube.com/watch?v=GZJehZkRLG4",
+            "percent":100,
+            "hz":240
             
          }
     ]
