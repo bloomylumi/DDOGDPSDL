@@ -9,5 +9,11 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+         {
+            "user":"2n04",
+            "link":"https://www.youtube.com/watch?v=gQl6M4B9iT4",
+            "percent":100,
+            "hz":240
+         }
     ]
 }
