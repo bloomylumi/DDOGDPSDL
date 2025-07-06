@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+        {
+            "user":"Macaroni & Games",
+            "link":"https://youtu.be/f3GoFC6XGtY",
+            "percent":100,
+            "hz":165
+         }
     ]
 }

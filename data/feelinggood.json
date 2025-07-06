@@ -13,6 +13,18 @@
             "link":"https://youtu.be/uGrL73jN3Rk",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"jrpresley08",
+            "link":"https://www.youtube.com/watch?v=9bg5sUbG-2Q",
+            "percent":100,
+            "hz":120
+         },
+         {
+            "user":"popcat",
+            "link":"https://youtu.be/c0OK6khUvEw",
+            "percent":100,
+            "hz":240
          }
     ]
 }

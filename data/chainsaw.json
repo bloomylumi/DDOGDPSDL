@@ -31,6 +31,18 @@
             "link":"https://youtu.be/D2mLhhydyKA?feature=shared",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"Macaroni & Games",
+            "link":"https://youtu.be/2k3Ch3hT57E",
+            "percent":100,
+            "hz":165
+         },
+         {
+            "user":"Avern",
+            "link":"https://youtu.be/SrldyJfodeI",
+            "percent":100,
+            "hz":240
          }
     ]
 }
