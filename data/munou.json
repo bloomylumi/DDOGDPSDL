@@ -16,7 +16,7 @@
          },
          {
             "user":"lilcanez",
-            "link":"https://youtu.be/Dks-x-NpFY0?si=wO2V5HYCWs9MB6xW",
+            "link":"https://www.youtube.com/watch?v=Dks-x-NpFY0",
             "percent":100,
             "hz":144
          },
@@ -31,6 +31,12 @@
             "link":"https://www.youtube.com/watch?v=4M2pvGMY0eE",
             "percent":100,
             "hz":120
+         },
+         {
+            "user":"spnv",
+            "link":"https://www.youtube.com/watch?v=R1dQh9PP8Co",
+            "percent":100,
+            "hz":240
          }
       ]
 }
