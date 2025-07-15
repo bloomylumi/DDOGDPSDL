@@ -8,11 +8,6 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
-        {
-            "user":"Avern",
-            "link":"https://youtu.be/HQRL8mRlchk",
-            "percent":100,
-            "hz":240
-         }
+        
     ]
 }
