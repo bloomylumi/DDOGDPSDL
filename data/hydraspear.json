@@ -13,6 +13,12 @@
             "link":"https://www.youtube.com/watch?v=n_A8HeM5acE",
             "percent":100,
             "hz":120
+         },
+         {
+            "user":"Vergit",
+            "link":"https://youtu.be/zhP1f0zl-XY",
+            "percent":100,
+            "hz":240
          }
     ]
 }

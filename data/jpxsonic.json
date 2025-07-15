@@ -8,5 +8,17 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+        {
+            "user":"jrpresley08",
+            "link":"https://www.youtube.com/watch?v=jBOpyfRT27I",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"Macaroni & Games",
+            "link":"https://youtu.be/E8kyJSel5ac",
+            "percent":100,
+            "hz":165
+         }
     ]
 }
