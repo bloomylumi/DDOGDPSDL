@@ -4,16 +4,10 @@
     "name": "Delucemite Dwelle",
     "author": "Avern",
     "creators": ["Avern, Ebonium"],
-    "verifier": "2n04",
-    "verification": "https://www.youtube.com/watch?v=gQl6M4B9iT4",
+    "verifier": "jrpresley08",
+    "verification": "https://www.youtube.com/watch?v=gzo8kdcYiUo",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
-         {
-            "user":"jrpresley08",
-            "link":"https://www.youtube.com/watch?v=gzo8kdcYiUo",
-            "percent":100,
-            "hz":120
-         }
     ]
 }
