@@ -5,7 +5,7 @@
     "creators": ["LightingFlash, Semify"],
     "verifier": "Semify",
     "verification": "https://www.youtube.com/watch?v=Draj7LCI_ds",
-    "percentToQualify": "80",
+    "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
         {
@@ -29,7 +29,7 @@
          {
             "user":"spnv",
             "link":"https://www.youtube.com/watch?v=R1dQh9PP8Co",
-            "percent":100,
+            "percent":10000,
             "hz":240
          }
       ]
