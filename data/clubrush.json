@@ -86,6 +86,12 @@
             "link":"https://www.youtube.com/watch?v=ZLwSNC8dj2A",
             "percent":100,
             "hz":120
+         },
+         {
+            "user":"Veepo",
+            "link":"https://youtu.be/cExEvjRNzWg",
+            "percent":100,
+            "hz":240
          }
 
     ]
