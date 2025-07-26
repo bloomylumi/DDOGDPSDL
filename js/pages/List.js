@@ -100,28 +100,28 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps. CBF is also allowed).
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record (custom ldm's are not allowed).
                     </p>
                     <p>
                         Have either source audio or clicks/taps in the video (unless you completed the record on mobile). If you do not have a microphone, you are allowed to use the Click Sounds mod. However you must show that you have any botting software disabled if you do so, as clicks can be faked using this mod.
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt.
+                        The recording must have a previous attempt's entire death animation shown before the completion, unless the completion is on the first attempt.
                     </p>
                     <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                        The recording must also include the endscreen shown after the "Level Complete!" text appears, or the completion will be invalidated.
                     </p>
                     <p>
-                        Do not use secret routes or bug routes
+                        Do not use secret routes or bug routes.
                     </p>
                     <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
+                        Do not use easy modes, only a record of the unmodified level qualifies.
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level.
                     </p>
                 </div>
             </div>
