@@ -79,6 +79,12 @@
             "link":"https://www.youtube.com/watch?v=VVRJFmyjAK4",
             "percent":100,
             "hz":120
+         },
+         {
+            "user":"TurboFlash",
+            "link":"https://youtu.be/v5U7ihGlrQw",
+            "percent":100,
+            "hz":60
          }
     ]
 }
