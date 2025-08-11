@@ -91,6 +91,12 @@
             "link":"https://www.youtube.com/watch?v=gfatXWhAEQ0",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"ted",
+            "link":"https://www.youtube.com/watch?v=fjhGiFWto_A",
+            "percent":100,
+            "hz":165
          }
     ]
 }
