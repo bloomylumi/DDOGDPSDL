@@ -13,6 +13,12 @@
             "link":"https://www.youtube.com/watch?v=8lX7sB_lBwY",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"ted",
+            "link":"https://www.youtube.com/watch?v=8kX4OrRD1as",
+            "percent":100,
+            "hz":165
          }
     ]
 }
