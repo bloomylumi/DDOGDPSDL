@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+     {
+            "user":"nik14k",
+            "link":"https://youtu.be/46MvqrTYlB4?feature=shared",
+            "percent":100,
+            "hz":240
+     }
     ]
 }
