@@ -97,6 +97,13 @@
             "link":"https://youtu.be/JQNl1qkp8QM",
             "percent":100,
             "hz":240
+        },
+        {
+            "user":"BABAGD",
+            "link":"https://youtu.be/s_rJE6LnxTo?si=I1EM3hSkqDJybTQL",
+            "percent":100,
+            "hz":120,
+            "mobile":true
         }
 
     ]
