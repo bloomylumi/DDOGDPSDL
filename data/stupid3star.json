@@ -79,7 +79,15 @@
             "link":"https://www.youtube.com/watch?v=9c4SUv7L7Ns",
             "percent":100,
             "hz":165
-         }
+         },
+         {
+            "user":"BABAGD",
+            "link":"https://youtu.be/s_rJE6LnxTo?si=I1EM3hSkqDJybTQL",
+            "percent":100,
+            "hz":120,
+            "mobile":true
+        }
     ]
 }
+
 
