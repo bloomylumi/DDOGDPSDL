@@ -69,7 +69,14 @@
             "percent":100,
             "hz":120,
             "mobile":true
+         },
+         {
+            "user":"ted",
+            "link":"https://www.youtube.com/watch?v=a-wv8taS4uc",
+            "percent":100,
+            "hz":165
          }
     ]
 }
+
 
