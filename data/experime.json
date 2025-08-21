@@ -44,7 +44,7 @@
             "link":"https://youtube.com/shorts/69ZXBytOCFg?feature=share",
             "percent":100,
             "hz":60
-                     },
+         },
          {
             "user":"dimigmd",
             "link":"https://medal.tv/games/geometry-dash/clips/kuNhBt5n1o7E4rhJW?invite=cr-MSxDWGUsMjY2Mjc2NTk5",
@@ -54,6 +54,12 @@
          {
             "user":"jrpresley08",
             "link":"https://www.youtube.com/watch?v=g_IY5Ttv2F8",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"BABAGD",
+            "link":"https://youtu.be/ng5q5P1JN_k?si=O2TQc_-eK3NAR4Nq",
             "percent":100,
             "hz":240
          }
