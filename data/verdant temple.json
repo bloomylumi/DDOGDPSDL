@@ -8,5 +8,11 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+         {
+            "user":"BABAGD",
+            "link":"https://youtu.be/e2SJ5MiJDrY?si=cvFr4LhgP9M84iag",
+            "percent":100,
+            "hz":240
+         }
     ]
 }
