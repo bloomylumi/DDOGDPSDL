@@ -43,6 +43,18 @@
             "link":"https://youtu.be/ng5q5P1JN_k?si=O2TQc_-eK3NAR4Nq",
             "percent":100,
             "hz":240
+        },
+        {
+            "user":"ted",
+            "link":"https://www.youtube.com/watch?v=MmwBtKEGu0Y",
+            "percent":100,
+            "hz":165
+        },
+        {
+            "user":"Emerald",
+            "link":"https://youtu.be/Fyka8bwCE-E",
+            "percent":100,
+            "hz":240
         }
     ]
 }

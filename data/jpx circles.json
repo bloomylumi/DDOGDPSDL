@@ -37,7 +37,14 @@
             "link":"https://youtu.be/GsWW5HQC1ww?si=qsSH56QPRqW8WJBk",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"ted",
+            "link":"https://www.youtube.com/watch?v=ODMlk8dYhqg",
+            "percent":100,
+            "hz":165
          }
+         
          
     ]
 }
