@@ -37,10 +37,16 @@
             "link":"https://youtu.be/2k3Ch3hT57E",
             "percent":100,
             "hz":165
-                      },
+         },
          {
             "user":"Semify",
             "link":"https://youtu.be/maS0G9lVQFc",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"BABAGD",
+            "link":"https://youtu.be/H5ACVFVAIp0?si=8naCnwOTcJtRFlgM",
             "percent":100,
             "hz":240
          }
