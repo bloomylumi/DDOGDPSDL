@@ -102,6 +102,9 @@ export default {
                     <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps. CBF is also allowed).
                     </p>
+                    <p> 
+                        The record must be completed in normal mode. Completing a level in practise mode, even if it's from 0% all the way to 100% without dying, will invalidate the record.
+                    </p>
                     <p>
                         Achieved the record on the level that is listed on the site - please check the level ID before you submit a record (custom ldm's are not allowed).
                     </p>
