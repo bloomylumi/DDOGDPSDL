@@ -100,6 +100,9 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
+                        Anything above (and including) "Eating Money" requires 5+ minutes of raw footage. This means 300 seconds minimum of uneditted recording before the successful attempt. This does not include the time spent on the winning attempt.
+                    </p>
+                    <p>
                         Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps. CBF is also allowed).
                     </p>
                     <p> 
