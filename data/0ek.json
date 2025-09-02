@@ -8,5 +8,23 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+        {
+            "user":"jrpresley08",
+            "link":"https://www.youtube.com/watch?v=cnhTSOm1fos",
+            "percent":100,
+            "hz":240
+        },
+        {
+            "user":"Veepo",
+            "link":"https://youtu.be/EGhSOBesTKE",
+            "percent":100,
+            "hz":240
+        },
+        {
+            "user":"ted",
+            "link":"https://www.youtube.com/watch?v=utX9ecOatwc",
+            "percent":100,
+            "hz":165
+        }
     ]
 }

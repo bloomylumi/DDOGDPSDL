@@ -40,7 +40,13 @@
          },
          {
             "user":"BABAGD",
-            "link":"https://youtu.be/e2SJ5MiJDrY?si=cvFr4LhgP9M84iag",
+            "link":"https://youtu.be/e2SJ5MiJDrY",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"jrpresley08",
+            "link":"https://www.youtube.com/watch?v=norXltK5ac0",
             "percent":100,
             "hz":240
          }

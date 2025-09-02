@@ -16,15 +16,21 @@
          },
          {
             "user":"ted",
-            "link":"https://www.youtube.com/watch?v=8kX4OrRD1as",
+            "link":"https://www.youtube.com/watch?v=_u5pjoLWFGU",
             "percent":100,
             "hz":165
          },
          {
             "user":"BABAGD",
-            "link":"https://youtu.be/ng5q5P1JN_k?si=O2TQc_-eK3NAR4Nq",
+            "link":"https://youtu.be/ng5q5P1JN_k",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"Hamburger",
+            "link":"https://youtu.be/T5sgJ_V2AkQ",
+            "percent":100,
+            "hz":144
          }
     ]
 }

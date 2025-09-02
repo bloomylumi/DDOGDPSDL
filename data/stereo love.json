@@ -16,10 +16,22 @@
          },
          {
             "user":"BABAGD",
-            "link":"https://youtu.be/s_rJE6LnxTo?si=I1EM3hSkqDJybTQL",
+            "link":"https://youtu.be/s_rJE6LnxTo",
             "percent":100,
             "hz":120,
             "mobile":true
+        },
+        {
+            "user":"Kxi",
+            "link":"https://youtu.be/qdRibCzQoiQ",
+            "percent":100,
+            "hz":360
+        },
+        {
+            "user":"ted",
+            "link":"https://www.youtube.com/watch?v=zJYl_qge6WQ",
+            "percent":100,
+            "hz":165
         }
     ]
 }

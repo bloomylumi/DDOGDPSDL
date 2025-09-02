@@ -22,9 +22,15 @@
          },
          {
             "user":"BABAGD",
-            "link":"https://youtu.be/H5ACVFVAIp0?si=8naCnwOTcJtRFlgM",
+            "link":"https://youtu.be/H5ACVFVAIp0",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"ted",
+            "link":"https://www.youtube.com/watch?v=Jqgc4BGj6RE",
+            "percent":100,
+            "hz":165
          }
     ]
 }

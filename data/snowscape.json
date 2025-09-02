@@ -120,10 +120,16 @@
          },
          {
             "user":"BABAGD",
-            "link":"https://youtu.be/6XmqYUkhB18?si=5DE5nPtJyXZNqTWp",
+            "link":"https://youtu.be/6XmqYUkhB18",
             "percent":100,
             "hz":120,
             "mobile":true
+         },
+         {
+            "user":"ted",
+            "link":"https://www.youtube.com/watch?v=f089XYjJudk",
+            "percent":100,
+            "hz":165
          }
     ]
 }

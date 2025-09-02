@@ -4,9 +4,15 @@
     "author": "Space34",
     "creators": ["Space34"],
     "verifier": "BABAGD",
-    "verification": "https://youtu.be/_KzmbEHvZ1s?si=OiYdHNxgIFxnYNJh",
+    "verification": "https://youtu.be/_KzmbEHvZ1s",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+        {
+            "user":"jrpresley08",
+             "link":"https://www.youtube.com/watch?v=3Smd1HU6pos",
+             "percent":100,
+             "hz":240
+        }
     ]
 }

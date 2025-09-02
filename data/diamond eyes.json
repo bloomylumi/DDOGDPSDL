@@ -1,9 +1,9 @@
 {
     "id": 9291,
     "name": "DIAMOND EYES",
-    "author": "KXI",
-    "creators": ["KXI"],
-    "verifier": "KXI",
+    "author": "Kxi",
+    "creators": ["Kxi"],
+    "verifier": "Kxi",
     "verification": "https://youtu.be/mR3ewRfRGII?si=sTShId3SimBe67z7",
     "percentToQualify": "100",
     "password": "Free To Copy",
@@ -19,6 +19,12 @@
             "link":"https://www.youtube.com/watch?v=EtoIJKgPmI4",
             "percent":100,
             "hz":240
+        },
+        {
+            "user":"ted",
+             "link":"https://www.youtube.com/watch?v=-g_fyHpHq3s",
+             "percent":100,
+             "hz":240
         }
     ]
 }
