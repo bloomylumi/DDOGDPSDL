@@ -43,7 +43,10 @@
             "link":"https://youtu.be/lK5ErSs_5l4",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"thuddingpizza",
+            "link":"https://www.youtube.com/watch?v=ixvJT2O-KZE",
+            "percent":100,
+            "hz":240
          }
-
-    ]
-}
