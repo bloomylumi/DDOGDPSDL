@@ -1,0 +1,24 @@
+{
+    "id": 9970,
+    "name": "trans circles",
+    "author": "LightingFlash",
+    "creators": ["LightingFlash"],
+    "verifier": "spnv",
+    "verification": "https://youtu.be/-ODaXP_YQxY",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+               {
+            "user":"BABAGD",
+            "link":"https://youtu.be/HVxAu-lnpWU?si=7unEp4Pd5tuX6Hex",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"jrpresley08",
+            "link":"https://www.youtube.com/watch?v=cBYwigUcyJ4",
+            "percent":100,
+            "hz":120
+         }
+    ]
+}
