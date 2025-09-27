@@ -5,7 +5,7 @@ const scale = 2;
 
 /** Curve parameters */
 const maxPoints = 350;          // Maximum score at rank 1
-const minBase = 50;             // Minimum score at rank 151 (change this!)
+const minBase = 30;             // Minimum score at rank 151 (change this!)
 const maxRank = 151;            // Rank at which the base score reaches minBase
 const decayExp = 0.4;           // Curve exponent
 // Coefficient so that base(maxRank) = minBase
