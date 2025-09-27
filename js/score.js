@@ -14,8 +14,8 @@ const maxRank   = 151;   // Worst rank (Top 151)
  *      LOWER = harsher; e.g. 0.90 is harsher than 0.95
  * - tailFractionAtEnd: remaining fraction at rank = maxRank (how high the tail stays)
  */
-const topBoundary = 10;
-const fractionAtTopBoundary = 0.85; // <— harsher Top 10 (was 0.95)
+const topBoundary = 15;
+const fractionAtTopBoundary = 0.75; // <— harsher Top 15
 const tailFractionAtEnd     = 0.01;
 
 /**
