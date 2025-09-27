@@ -3,6 +3,13 @@
  */
 const scale = 2;
 
+/** points exponensial */
+const maxPoints = 350;
+const levelsToZero = 151;
+const decayExp = 0.4;
+
+const decayCoeff = -maxPoints / Math.pow(levelsToZero - 1, decayExp); // ≈ -47.1662708659
+
 /**
  * Calculate the score awarded when having a certain percentage on a list level
  * @param {Number} rank Position on the list
@@ -11,29 +18,28 @@ const scale = 2;
  * @returns {Number}
  */
 export function score(rank, percent, minPercent) {
-    if (rank > 150) {
+    if (rank >= levelsToZero) {
         return 0;
     }
     if (rank > 75 && percent < 100) {
         return 0;
     }
+    // coefficent
+    const base = decayCoeff * Math.pow(rank - 1, decayExp) + maxPoints;
 
-    // Old formula
-    /*
-    let score = (100 / Math.sqrt((rank - 1) / 50 + 0.444444) - 50) *
-        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
-    */
-    // New formula
-    let score = (-24.9975*Math.pow(rank-1, 0.4) + 350) *
-        ((percent - (minPercent - 1)) / (100 - (minPercent - 1)));
+    // percent
+    const norm = (percent - (minPercent - 1)) / (100 - (minPercent - 1));
 
-    score = Math.max(0, score);
+    // raw score (clippato a 0)
+    let s = base * norm;
+    s = Math.max(0, s);
 
-    if (percent != 100) {
-        return round(score - score / 3);
+    // if not 100%
+    if (percent !== 100) {
+        return round(s - s / 3);
     }
 
-    return Math.max(round(score), 0);
+    return Math.max(round(s), 0);
 }
 
 export function round(num) {
