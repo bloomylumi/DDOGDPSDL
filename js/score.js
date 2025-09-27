@@ -1,58 +1,67 @@
 /**
- * Numbers of decimal digits to round to
+ * Number of decimal digits to round to
  */
 const scale = 2;
 
-/** points exponensial */
-const maxPoints = 350;
-const levelsToZero = 151;
-const decayExp = 0.4;
-
-const decayCoeff = -maxPoints / Math.pow(levelsToZero - 1, decayExp); // ≈ -47.1662708659
+/** Curve parameters */
+const maxPoints = 350;          // Maximum score at rank 1
+const minBase = 50;             // Minimum score at rank 151 (change this!)
+const maxRank = 151;            // Rank at which the base score reaches minBase
+const decayExp = 0.4;           // Curve exponent
+// Coefficient so that base(maxRank) = minBase
+const decayCoeff = (minBase - maxPoints) / Math.pow(maxRank - 1, decayExp);
 
 /**
- * Calculate the score awarded when having a certain percentage on a list level
- * @param {Number} rank Position on the list
+ * Calculate the score awarded for a given rank and completion percentage
+ * @param {Number} rank Position in the list
  * @param {Number} percent Percentage of completion
  * @param {Number} minPercent Minimum percentage required
- * @returns {Number}
+ * @returns {Number} Final score
  */
 export function score(rank, percent, minPercent) {
-    if (rank >= levelsToZero) {
-        return 0;
+    // Beyond the maximum rank, return the minimum score
+    if (rank >= maxRank) {
+        return minBase;
     }
+
+    // From rank 76+, only 100% completions count
     if (rank > 75 && percent < 100) {
         return 0;
     }
-    // coefficent
+
+    // Base curve: maxPoints at rank=1, minBase at rank=maxRank
     const base = decayCoeff * Math.pow(rank - 1, decayExp) + maxPoints;
 
-    // percent
+    // Normalize percent completion between 0 and 1
     const norm = (percent - (minPercent - 1)) / (100 - (minPercent - 1));
 
-    // raw score (clippato a 0)
-    let s = base * norm;
-    s = Math.max(0, s);
+    // Raw score (never less than minBase)
+    let s = Math.max(minBase, base) * norm;
 
-    // if not 100%
+    // Apply penalty if not 100%
     if (percent !== 100) {
         return round(s - s / 3);
     }
 
-    return Math.max(round(s), 0);
+    return Math.max(round(s), minBase);
 }
 
+/**
+ * Round a number to the given decimal scale
+ * @param {Number} num
+ * @returns {Number}
+ */
 export function round(num) {
     if (!('' + num).includes('e')) {
         return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
     } else {
-        var arr = ('' + num).split('e');
-        var sig = '';
+        const arr = ('' + num).split('e');
+        let sign = '';
         if (+arr[1] + scale > 0) {
-            sig = '+';
+            sign = '+';
         }
         return +(
-            Math.round(+arr[0] + 'e' + sig + (+arr[1] + scale)) +
+            Math.round(+arr[0] + 'e' + sign + (+arr[1] + scale)) +
             'e-' +
             scale
         );
