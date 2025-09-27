@@ -5,7 +5,7 @@ const scale = 2;
 
 /** Scoring shape parameters (tune these) */
 const maxPoints = 350;   // Score at rank 1 (Top 1)
-const minBase   = 0;     // Asymptotic minimum near worst rank
+const minBase   = 20;     // Asymptotic minimum near worst rank
 const maxRank   = 151;   // Worst rank (Top 151)
 
 /**
@@ -15,7 +15,7 @@ const maxRank   = 151;   // Worst rank (Top 151)
  * - tailFractionAtEnd: remaining fraction at rank = maxRank (how high the tail stays)
  */
 const topBoundary = 10;
-const fractionAtTopBoundary = 0.90; // <— harsher Top 10 (was 0.95)
+const fractionAtTopBoundary = 0.85; // <— harsher Top 10 (was 0.95)
 const tailFractionAtEnd     = 0.01;
 
 /**
