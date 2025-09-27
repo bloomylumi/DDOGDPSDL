@@ -5,7 +5,7 @@ const scale = 2;
 
 /** Scoring shape parameters (tune these) */
 const maxPoints = 350;   // Score at rank 1 (Top 1)
-const minBase   = 20;     // Asymptotic minimum near worst rank
+const minBase   = 30;     // Asymptotic minimum near worst rank
 const maxRank   = 151;   // Worst rank (Top 151)
 
 /**
