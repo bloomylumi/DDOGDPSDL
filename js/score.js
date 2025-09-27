@@ -11,13 +11,12 @@ const maxRank   = 151;   // Worst rank (Top 151)
 /**
  * Exponential shape control:
  * - fractionAtTopBoundary: remaining fraction at rank = topBoundary (how flat Top 1..topBoundary is)
- *      e.g. 0.95 => at rank 10 you still have ~95% of (maxPoints - minBase)
+ *      LOWER = harsher; e.g. 0.90 is harsher than 0.95
  * - tailFractionAtEnd: remaining fraction at rank = maxRank (how high the tail stays)
- *      e.g. 0.01 => at rank 151 you keep ~1% of the initial gap
  */
 const topBoundary = 10;
-const fractionAtTopBoundary = 0.95; // smoother Top 10
-const tailFractionAtEnd     = 0.01; // steeper tail
+const fractionAtTopBoundary = 0.90; // <— harsher Top 10 (was 0.95)
+const tailFractionAtEnd     = 0.01;
 
 /**
  * Calculate the score awarded for a given rank and completion percentage
@@ -35,7 +34,7 @@ export function score(rank, percent, minPercent) {
         return 0;
     }
 
-    // --- Base score with two-phase exponential (slow in Top 10, faster after) ---
+    // --- Base score with two-phase exponential (harsher in Top 10) ---
     const base = baseScore(rank);
 
     // --- Normalize percent (0..1) against minPercent ---
@@ -55,11 +54,6 @@ export function score(rank, percent, minPercent) {
 
 /**
  * Two-phase exponential decay for the base:
- * Let f(r) be the fraction of (maxPoints - minBase) at rank r.
- * Phase 1: ranks 1..topBoundary use a gentle (small lambda) exponential.
- * Phase 2: ranks topBoundary+1..maxRank use a steeper exponential, continuous at the boundary,
- *          and reaching 'tailFractionAtEnd' at maxRank.
- *
  * f(1) = 1
  * f(topBoundary) = fractionAtTopBoundary
  * f(maxRank) = tailFractionAtEnd
@@ -73,8 +67,8 @@ function baseScore(rank) {
     const fracTop = clamp01(fractionAtTopBoundary);
     const lambdaTop = -Math.log(Math.max(fracTop, 1e-9)) / Math.max(spanTop, 1);
 
-    // Continuity at r0: f(r0) is the starting value for the tail phase
-    const f_r0 = Math.exp(-lambdaTop * spanTop); // = fractionAtTopBoundary (within rounding)
+    // Continuity at r0
+    const f_r0 = Math.exp(-lambdaTop * spanTop);
 
     // Solve lambda for the Tail so that f(maxRank) hits tailFractionAtEnd
     const fracTailEnd = clamp01(tailFractionAtEnd);
@@ -83,17 +77,13 @@ function baseScore(rank) {
     // Compute f(rank)
     let frac;
     if (rank <= r0) {
-        // Top phase (gentle)
         frac = Math.exp(-lambdaTop * (rank - 1));
     } else {
-        // Tail phase (steeper), continuous at r0
         frac = f_r0 * Math.exp(-lambdaTail * (rank - r0));
     }
 
     // Convert fraction to absolute base score
     const base = minBase + (maxPoints - minBase) * frac;
-
-    // Clamp to avoid tiny floating errors
     return Math.max(minBase, Math.min(base, maxPoints));
 }
 
