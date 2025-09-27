@@ -15,7 +15,7 @@ const maxRank   = 151;   // Worst rank (Top 151)
  * - tailFractionAtEnd: remaining fraction at rank = maxRank (how high the tail stays)
  */
 const topBoundary = 15;
-const fractionAtTopBoundary = 0.75; // <— harsher Top 15
+const fractionAtTopBoundary = 0.65; // <— harsher Top 15
 const tailFractionAtEnd     = 0.01;
 
 /**
