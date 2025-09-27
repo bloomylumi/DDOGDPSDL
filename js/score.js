@@ -3,53 +3,66 @@
  */
 const scale = 2;
 
-/** Curve parameters */
-const maxPoints = 350;          // Maximum score at rank 1
-const minBase = 15;             // Minimum score at rank 151 (change this!)
-const maxRank = 151;            // Rank at which the base score reaches minBase
-const decayExp = 0.4;           // Curve exponent
-// Coefficient so that base(maxRank) = minBase
-const decayCoeff = (minBase - maxPoints) / Math.pow(maxRank - 1, decayExp);
+/** Curve parameters (tweak as you like) */
+const maxPoints = 350;          // Maximum score at the highest rank (151)
+const minBase  = 0;             // Minimum base score at rank 1
+const maxRank  = 151;           // Highest rank
+const shapeExp = 2.0;           // >1 makes low ranks much smaller and high ranks much larger (convex)
+
+/**
+ * Percent bias:
+ * - At low ranks, exponent > 1 reduces the value of partial completion
+ * - At high ranks, exponent < 1 increases the value of partial completion
+ *
+ * Example: 1.3 (penalize partial % at low ranks) --> 0.8 (favor partial % at high ranks)
+ */
+const percentBiasLow  = 1.3;    // exponent at rank 1
+const percentBiasHigh = 0.8;    // exponent at rank 151
 
 /**
  * Calculate the score awarded for a given rank and completion percentage
- * @param {Number} rank Position in the list
- * @param {Number} percent Percentage of completion
+ * @param {Number} rank Position (higher rank number = better)
+ * @param {Number} percent Percentage of completion (0..100)
  * @param {Number} minPercent Minimum percentage required
  * @returns {Number} Final score
  */
 export function score(rank, percent, minPercent) {
-    // Beyond the maximum rank, return the minimum score
-    if (rank >= maxRank) {
-        return minBase;
-    }
+    // Clamp rank to [1, maxRank]
+    rank = Math.max(1, Math.min(rank, maxRank));
 
-    // From rank 76+, only 100% completions count
-    if (rank > 75 && percent < 100) {
-        return 0;
-    }
+    // --- Base score grows with rank (convex) ---
+    // t goes from 0 at rank=1 to 1 at rank=maxRank
+    const t = (rank - 1) / (maxRank - 1);
+    // Base increases from minBase -> maxPoints with a convex shape (shapeExp > 1)
+    const base = minBase + (maxPoints - minBase) * Math.pow(t, shapeExp);
 
-    // Base curve: maxPoints at rank=1, minBase at rank=maxRank
-    const base = decayCoeff * Math.pow(rank - 1, decayExp) + maxPoints;
+    // --- Normalize percent (0..1) against minPercent ---
+    let norm = (percent - (minPercent - 1)) / (100 - (minPercent - 1));
+    norm = Math.max(0, Math.min(1, norm));
 
-    // Normalize percent completion between 0 and 1
-    const norm = (percent - (minPercent - 1)) / (100 - (minPercent - 1));
+    // --- Bias percent by rank: penalize low ranks, favor high ranks ---
+    const percentExp = lerp(percentBiasLow, percentBiasHigh, t);
+    const biasedPercent = Math.pow(norm, percentExp);
 
-    // Raw score (never less than minBase)
-    let s = Math.max(minBase, base) * norm;
+    // --- Raw score ---
+    let s = base * biasedPercent;
 
-    // Apply penalty if not 100%
+    // Optional: keep the original “non-100% penalty”
     if (percent !== 100) {
-        return round(s - s / 3);
+        s = s - s / 3; // reduce by 33%
     }
 
-    return Math.max(round(s), minBase);
+    return Math.max(round(s), 0);
+}
+
+/** Linear interpolation helper */
+function lerp(a, b, t) {
+    return a + (b - a) * t;
 }
 
 /**
  * Round a number to the given decimal scale
- * @param {Number} num
- * @returns {Number}
+ * (kept from your original code)
  */
 export function round(num) {
     if (!('' + num).includes('e')) {
@@ -57,9 +70,7 @@ export function round(num) {
     } else {
         const arr = ('' + num).split('e');
         let sign = '';
-        if (+arr[1] + scale > 0) {
-            sign = '+';
-        }
+        if (+arr[1] + scale > 0) sign = '+';
         return +(
             Math.round(+arr[0] + 'e' + sign + (+arr[1] + scale)) +
             'e-' +
