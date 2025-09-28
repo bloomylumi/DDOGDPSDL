@@ -32,6 +32,12 @@
             "percent":100,
             "hz":120,
             "mobile":true
+        },
+        {
+            "user":"spnv",
+            "link":"https://www.youtube.com/watch?v=f-Ck40XpDhw",
+            "percent":100,
+            "hz":240
         }
     ]
 }
