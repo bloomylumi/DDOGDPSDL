@@ -37,8 +37,8 @@
     <body id="app">
         <header :class="{ dark: store.dark }">
             <div class="logo">
-                <h2>DDOGDPSDL</h2>
-                <p>v1.3.3</p>
+                <img :src="store.dark ? '/assets/light.png' : '/assets/dark.png'" width="248" height="45" /img>
+                <p>beta 1.4</p>
             </div>
             <nav class="nav">
                 <router-link class="nav__tab" to="/">
@@ -60,10 +60,10 @@
                             alt=""
                         />
                     </button>
-                    <!-- Replace the '#' with your discord server's invite-->
+                    <!-- Replace the '#' with your discord server's invite--
                     <a class="nav__icon" href="https://discord.gg/ddogd">
-                        <img src="/assets/discord.svg" alt="Discord Logo" />
-                    </a>
+                        <img src="/assets/discord.svg" alt="Themes" />
+                    </a>-->
                     <!-- List record submission form, add a link to replace the '#' when putting a link to your list submission form-->
                     <a
                         class="nav__cta type-label-lg"

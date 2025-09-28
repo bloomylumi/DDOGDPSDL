@@ -51,8 +51,20 @@ export default {
                             <p>{{ level.id }}</p>
                         </li>
                         <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
+                            <div class="type-title-sm">Object Count</div>
+                            <p>{{ level.objcount }}</p>
+                        </li>
+                        <li>
+                            <div class="type-title-sm">Length</div>
+                            <p>{{ level.length || 'Tiny' || 'Short' || 'Medium' ||'Long' || 'XL' }}</p>
+                        </li>
+                        <li>
+                            <div class="type-title-sm">Difficulty</div>
+                            <p>{{ level.difficulty || 'Easy Demon' || 'Medium Demon' || 'Hard Demon' || 'Insane Demon' || 'Extreme Demon' }}</p>
+                        </li>
+                        <li>
+                            <div class="type-title-sm">Song ID</div>
+                            <p>{{ level.song }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>

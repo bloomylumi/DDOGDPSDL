@@ -1,12 +1,15 @@
 {
     "id": 10154,
+    "objcount": 22422,
+    "length": "Medium",
     "name": "LIMENOX",
     "author": "JPX",
     "creators": ["JPX"],
     "verifier": "BABAGD",
+    "song": 1444935, 
     "verification": "https://youtu.be/f6EKuKoFMz0?si=xvCvwCgYif38S0Sn",
     "percentToQualify": "100",
-    "password": "Free To Copy",
+    "difficulty": "Extreme Demon",
     "records": [
      {
             "user":"nik14k",
