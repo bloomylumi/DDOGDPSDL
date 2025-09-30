@@ -9,6 +9,12 @@
     "password": "Free To Copy",
     "records": [
                {
+            "user":"Emerald",
+            "link":"https://youtu.be/ZueLCCyO1W4",
+            "percent":100,
+            "hz":280
+        },
+        {
             "user":"jrpresley08",
             "link":"https://www.youtube.com/watch?v=j1RaSQ_M9Xk",
             "percent":100,
