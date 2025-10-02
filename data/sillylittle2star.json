@@ -9,16 +9,16 @@
     "password": "Free Copy",
     "records": [
          {
-            "user":"lilcanez",
-            "link":"https://www.youtube.com/watch?v=rC5YYTihc-c",
-            "percent":100,
-            "hz":144
-         },
-         {
             "user":"Vergit",
             "link":"https://www.youtube.com/watch?v=NB33vALVPLA",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"lilcanez",
+            "link":"https://www.youtube.com/watch?v=rC5YYTihc-c",
+            "percent":100,
+            "hz":144
          },
          {
             "user":"Macaroni & Games",
@@ -40,4 +40,5 @@
          }
     ]
 }
+
 
