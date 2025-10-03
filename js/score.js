@@ -9,7 +9,7 @@ const minBase   = 30;     // Asymptotic minimum near worst rank
 const maxRank   = 151;   // Cutoff rank (anything >= this rank gives 0 points)
 
 const topBoundary = 15;
-const fractionAtTopBoundary = 0.65; 
+const fractionAtTopBoundary = 0.70; 
 const tailFractionAtEnd     = 0.01;
 
 /**
