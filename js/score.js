@@ -3,39 +3,46 @@
  */
 const scale = 2;
 
-/** aloaf is not cool frfr
 /** Scoring shape parameters (tune these) */
-const maxPoints = 400;   // Score at rank 1 (Top 1)
-const minBase   = 30;     // Asymptotic minimum near worst rank
+const maxPoints = 350;   // Score at rank 1 (Top 1)
+const minBase   = 0;     // Asymptotic minimum near worst rank
 const maxRank   = 151;   // Worst rank (Top 151)
 
 /**
  * Exponential shape control:
  * - fractionAtTopBoundary: remaining fraction at rank = topBoundary (how flat Top 1..topBoundary is)
- *      LOWER = harsher; e.g. 0.90 is harsher than 0.95
+ *      LOWER = harsher; e.g., 0.90 is harsher than 0.95
  * - tailFractionAtEnd: remaining fraction at rank = maxRank (how high the tail stays)
  */
 const topBoundary = 15;
-const fractionAtTopBoundary = 0.65; // <— harsher Top 15
+const fractionAtTopBoundary = 0.65; // harsher Top 10
 const tailFractionAtEnd     = 0.01;
+
+/** Message returned when rank is 151 or higher */
+const noPointsMessage = "Legacy";
 
 /**
  * Calculate the score awarded for a given rank and completion percentage
- * @param {Number} rank Position in the list (1 = best, maxRank = worst)
+ * @param {Number} rank Position in the list (1 = best, higher numbers are worse)
  * @param {Number} percent Percentage of completion
  * @param {Number} minPercent Minimum percentage required
- * @returns {Number} Final score
+ * @returns {Number|string} Final score or "No points" for rank >= 151
  */
 export function score(rank, percent, minPercent) {
-    // Clamp rank
-    rank = Math.max(1, Math.min(rank, maxRank));
+    // If the level is rank 151 or beyond, give no points and return a word
+    if (rank >= maxRank) {
+        return noPointsMessage;
+    }
 
     // Keep your original rule: from rank 76+, only 100% counts
     if (rank > 75 && percent < 100) {
         return 0;
     }
 
-    // --- Base score with two-phase exponential (harsher in Top 10) ---
+    // Clamp rank to valid range for the curve (1..150 here)
+    rank = Math.max(1, Math.min(rank, maxRank - 1));
+
+    // --- Base score with two-phase exponential (harsher in Top 10, faster after) ---
     const base = baseScore(rank);
 
     // --- Normalize percent (0..1) against minPercent ---
@@ -62,7 +69,7 @@ export function score(rank, percent, minPercent) {
 function baseScore(rank) {
     const r0 = Math.max(2, Math.min(topBoundary, maxRank - 1)); // boundary rank (>=2)
     const spanTop  = r0 - 1;           // steps from rank 1 to r0
-    const spanTail = maxRank - r0;     // steps from r0 to maxRank
+    const spanTail = (maxRank) - r0;   // steps from r0 to maxRank (151 here)
 
     // Solve lambda for the Top phase so that f(r0) hits fractionAtTopBoundary
     const fracTop = clamp01(fractionAtTopBoundary);
