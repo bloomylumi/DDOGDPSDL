@@ -3,86 +3,73 @@
  */
 const scale = 2;
 
-/** Scoring shape parameters (tune these) */
+/** Scoring shape parameters */
 const maxPoints = 400;   // Score at rank 1 (Top 1)
 const minBase   = 30;     // Asymptotic minimum near worst rank
-const maxRank   = 151;   // Worst rank (Top 151)
+const maxRank   = 151;   // Cutoff rank (anything >= this rank gives 0 points)
 
-/**
- * Exponential shape control:
- * - fractionAtTopBoundary: remaining fraction at rank = topBoundary (how flat Top 1..topBoundary is)
- *      LOWER = harsher; e.g., 0.90 is harsher than 0.95
- * - tailFractionAtEnd: remaining fraction at rank = maxRank (how high the tail stays)
- */
 const topBoundary = 15;
-const fractionAtTopBoundary = 0.65; // harsher Top 10
+const fractionAtTopBoundary = 0.65; 
 const tailFractionAtEnd     = 0.01;
 
-/** Message returned when rank is 151 or higher */
-const noPointsMessage = "Legacy";
-
 /**
- * Calculate the score awarded for a given rank and completion percentage
- * @param {Number} rank Position in the list (1 = best, higher numbers are worse)
- * @param {Number} percent Percentage of completion
- * @param {Number} minPercent Minimum percentage required
- * @returns {Number|string} Final score or "No points" for rank >= 151
+ * Calculate the score (numeric).
+ * @returns {Number} Always a number (0 if rank >= 151)
  */
 export function score(rank, percent, minPercent) {
-    // If the level is rank 151 or beyond, give no points and return a word
+    // If rank is outside the scoring range, return 0
     if (rank >= maxRank) {
-        return noPointsMessage;
+        return 0;
     }
 
-    // Keep your original rule: from rank 76+, only 100% counts
+    // From rank 76+, only 100% counts
     if (rank > 75 && percent < 100) {
         return 0;
     }
 
-    // Clamp rank to valid range for the curve (1..150 here)
+    // Clamp rank to [1, maxRank-1]
     rank = Math.max(1, Math.min(rank, maxRank - 1));
 
-    // --- Base score with two-phase exponential (harsher in Top 10, faster after) ---
     const base = baseScore(rank);
 
-    // --- Normalize percent (0..1) against minPercent ---
+    // Normalize percent
     let norm = (percent - (minPercent - 1)) / (100 - (minPercent - 1));
     norm = Math.max(0, Math.min(1, norm));
 
-    // Raw score
     let s = base * norm;
 
-    // Same non-100% penalty as your original code
     if (percent !== 100) {
-        s = s - s / 3; // reduce by ~33%
+        s = s - s / 3;
     }
 
     return Math.max(round(s), 0);
 }
 
 /**
- * Two-phase exponential decay for the base:
- * f(1) = 1
- * f(topBoundary) = fractionAtTopBoundary
- * f(maxRank) = tailFractionAtEnd
+ * Convert a numeric score into a display string.
+ * If score == 0 because rank >= 151, show "No points" instead of 0.
  */
-function baseScore(rank) {
-    const r0 = Math.max(2, Math.min(topBoundary, maxRank - 1)); // boundary rank (>=2)
-    const spanTop  = r0 - 1;           // steps from rank 1 to r0
-    const spanTail = (maxRank) - r0;   // steps from r0 to maxRank (151 here)
+export function displayScore(rank, percent, minPercent) {
+    const value = score(rank, percent, minPercent);
+    if (rank >= maxRank) {
+        return "Legacy"; // shown text
+    }
+    return value.toString(); // normal numeric output
+}
 
-    // Solve lambda for the Top phase so that f(r0) hits fractionAtTopBoundary
+/** Exponential decay for the base */
+function baseScore(rank) {
+    const r0 = Math.max(2, Math.min(topBoundary, maxRank - 1));
+    const spanTop  = r0 - 1;
+    const spanTail = (maxRank - 1) - r0;
+
     const fracTop = clamp01(fractionAtTopBoundary);
     const lambdaTop = -Math.log(Math.max(fracTop, 1e-9)) / Math.max(spanTop, 1);
-
-    // Continuity at r0
     const f_r0 = Math.exp(-lambdaTop * spanTop);
 
-    // Solve lambda for the Tail so that f(maxRank) hits tailFractionAtEnd
     const fracTailEnd = clamp01(tailFractionAtEnd);
     const lambdaTail = (Math.log(f_r0) - Math.log(Math.max(fracTailEnd, 1e-12))) / Math.max(spanTail, 1);
 
-    // Compute f(rank)
     let frac;
     if (rank <= r0) {
         frac = Math.exp(-lambdaTop * (rank - 1));
@@ -90,18 +77,14 @@ function baseScore(rank) {
         frac = f_r0 * Math.exp(-lambdaTail * (rank - r0));
     }
 
-    // Convert fraction to absolute base score
-    const base = minBase + (maxPoints - minBase) * frac;
-    return Math.max(minBase, Math.min(base, maxPoints));
+    return minBase + (maxPoints - minBase) * frac;
 }
 
 function clamp01(x) {
     return Math.max(0, Math.min(1, x));
 }
 
-/**
- * Round a number to the given decimal scale
- */
+/** Round helper */
 export function round(num) {
     if (!('' + num).includes('e')) {
         return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
