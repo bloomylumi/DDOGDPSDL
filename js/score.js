@@ -43,15 +43,20 @@ export function score(rank, percent, minPercent) {
     }
 
     return Math.max(round(s), 0);
+    
+/**
+ * Convert a numeric score into a display string for the UI.
+ * - Shows "No points" only when rank >= cutoff (default 151)
+ * - Otherwise shows the numeric score as a string
+ */
+export function displayScore(rank, percent, minPercent, { cutoff = 151, label = "No points" } = {}) {
+    const value = score(rank, percent, minPercent); // always numeric
+    if (rank >= cutoff) {
+        return label;            // show text, but score() stays 0 for calculations
+    }
+    return String(value);        // show number as text
 }
 
-export function displayScore(rank, percent, minPercent) {
-    const value = score(rank, percent, minPercent);
-    if (rank >= maxRank) {
-        return "No points";
-    }
-    return value.toString();
-}
 /**
  * Two-phase exponential decay for the base:
  * f(1) = 1
