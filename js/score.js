@@ -45,6 +45,13 @@ export function score(rank, percent, minPercent) {
     return Math.max(round(s), 0);
 }
 
+export function displayScore(rank, percent, minPercent) {
+    const value = score(rank, percent, minPercent);
+    if (rank >= maxRank) {
+        return "No points";
+    }
+    return value.toString();
+}
 /**
  * Two-phase exponential decay for the base:
  * f(1) = 1
