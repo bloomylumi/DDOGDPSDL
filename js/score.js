@@ -8,7 +8,7 @@ const maxPoints = 400;   // Score at rank 1 (Top 1)
 const minBase   = 30;     // Asymptotic minimum near worst rank
 const maxRank   = 151;   // Cutoff rank (anything >= this rank gives 0 points)
 
-const topBoundary = 10;
+const topBoundary = 15;
 const fractionAtTopBoundary = 0.65; 
 const tailFractionAtEnd     = 0.01;
 
