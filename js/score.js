@@ -13,7 +13,7 @@ const fractionAtTopBoundary = 0.65;
 const tailFractionAtEnd     = 0.01;
 
 /**
- * Calculate the score (numeric).
+ * Calculate the score (numeric only).
  * @returns {Number} Always a number (0 if rank >= 151)
  */
 export function score(rank, percent, minPercent) {
@@ -46,18 +46,11 @@ export function score(rank, percent, minPercent) {
 }
 
 /**
- * Convert a numeric score into a display string.
- * If score == 0 because rank >= 151, show "No points" instead of 0.
+ * Two-phase exponential decay for the base:
+ * f(1) = 1
+ * f(topBoundary) = fractionAtTopBoundary
+ * f(maxRank-1) = tailFractionAtEnd
  */
-export function displayScore(rank, percent, minPercent) {
-    const value = score(rank, percent, minPercent);
-    if (rank >= maxRank) {
-        return "Legacy"; // shown text
-    }
-    return value.toString(); // normal numeric output
-}
-
-/** Exponential decay for the base */
 function baseScore(rank) {
     const r0 = Math.max(2, Math.min(topBoundary, maxRank - 1));
     const spanTop  = r0 - 1;
