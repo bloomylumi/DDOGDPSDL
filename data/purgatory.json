@@ -1,0 +1,18 @@
+{
+    "id": 11416,
+    "name": "PURGATORY",
+    "author": "Kxi",
+    "creators": ["Kxi"],
+    "verifier": "Kxi",
+    "verification": "https://youtu.be/94nMcveuTGE?si=CrvXlnb6-WgBYKNo",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+     {
+            "user":"ted",
+            "link":"https://www.youtube.com/watch?v=md-HLyoTRD0",
+            "percent":100,
+            "hz":240
+     }
+    ]
+}
