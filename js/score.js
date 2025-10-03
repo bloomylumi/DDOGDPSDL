@@ -4,12 +4,12 @@
 const scale = 2;
 
 /** Scoring shape parameters */
-const maxPoints = 350;   // Score at rank 1 (Top 1)
-const minBase   = 0;     // Asymptotic minimum near worst rank
+const maxPoints = 400;   // Score at rank 1 (Top 1)
+const minBase   = 30;     // Asymptotic minimum near worst rank
 const maxRank   = 151;   // Cutoff rank (anything >= this rank gives 0 points)
 
 const topBoundary = 10;
-const fractionAtTopBoundary = 0.90; 
+const fractionAtTopBoundary = 0.65; 
 const tailFractionAtEnd     = 0.01;
 
 /**
