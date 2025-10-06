@@ -115,9 +115,6 @@ export default {
                         If the record is completed with anytype of cheating (so speedhack, noclip, show hitbox and more), Then the record will be invalidate, This applies to every part of the level itself, So if you use speedhack at the end of the level where you cant die the record will be invalidate anyways.
                     </p>
                     <p>
-                        If the record is completed with anytype of cheating (so speedhack, noclip, show hitbox and more), Then the record will be invalidate, This applies to every part of the level itself, So if you use speedhack at the end of the level where you cant die the record will be invalidate anyways.
-                    </p>
-                    <p>
                         Have either source audio or clicks/taps in the video (unless you completed the record on mobile). If you do not have a microphone, You are allowed to use the Click Sounds mod. However you must show that you have any botting software disabled If you do so, as clicks can be faked using this mod, This also applies on mobile.
                     </p>
                     <p>
