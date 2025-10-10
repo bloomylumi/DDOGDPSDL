@@ -1,14 +1,20 @@
-{
+   {
     "id": 7379,
     "name": "kever rave",
     "author": "AAAAAAAAAAAAAAA",
     "creators": ["AAAAAAAAAAAAAAA"],
-    "verifier": "jrpresley08",
-    "verification": "https://www.youtube.com/watch?v=8lX7sB_lBwY",
+    "verifier": "Vergit",
+    "verification": "https://youtu.be/qvkRfDnHrJc",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
-         {
+               {
+            "user":"jrpresley08",
+            "link":"https://www.youtube.com/watch?v=8lX7sB_lBwY",
+            "percent":100,
+            "hz":120
+              },
+               {
             "user":"ted",
             "link":"https://www.youtube.com/watch?v=_u5pjoLWFGU",
             "percent":100,
@@ -27,4 +33,3 @@
             "hz":144
          }
     ]
-}
