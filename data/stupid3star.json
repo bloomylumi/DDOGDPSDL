@@ -86,8 +86,15 @@
             "percent":100,
             "hz":120,
             "mobile":true
+        },
+        {
+            "user":"Veepo",
+            "link":"https://youtu.be/4Sq7YA5NCN8?si=oXt8oirLoBI0Jyaq",
+            "percent":100,
+            "hz":240
         }
     ]
 }
+
 
 
