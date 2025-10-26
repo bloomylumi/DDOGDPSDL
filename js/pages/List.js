@@ -103,37 +103,37 @@ export default {
                         Anything above (and including) "Eating Money" requires 5+ minutes of raw footage. This means 300 seconds minimum of unedited recording before the successful attempt. This does not include the time spent on the winning attempt.
                     </p>
                     <p>
-                        Every level included in the DemonList can be completed with cbf.
+                        Every level included in the Demonlist can be completed with CBF (Click Between Frames).
                     </p>
                     <p> 
-                        The record must be completed in normal mode. Completing a level in practise mode, Even if it's from 0% all the way to 100% without dying, will invalidate the record.
+                        The record must be completed in normal mode. Completing a level in practice mode, even if it's from 0% all the way to 100% without dying, will invalidate the record.
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record. Custom ldm's that make the level way easier are not allowed, But there are some exceptions, For example if the level has a high amount of obj that makes a frame drop for the user then the user is allowed to use the ldm, same If the ldm doesnt affect the difficulty of the level.
+                        Achieved the record on the level that is listed on the site? - please check the level ID before you submit a record. Custom LDM's that make the level way easier are not allowed, But there are some exceptions, for example if the level has a high amount of objects that makes a frame drop for the user, then the user is allowed to use the ldm. Same if the LDM doesnt affect the difficulty of the level.
                     </p>
                     <p>
-                        If the record is completed with anytype of cheating (so speedhack, noclip, show hitbox and more), Then the record will be invalidate, This applies to every part of the level itself, So if you use speedhack at the end of the level where you cant die the record will be invalidate anyways.
+                        If the record is completed with any type of cheating (Speedhack, noclip, show hitbox and more), then the record will be invalidated. This applies to every part of the level itself, so if you use speedhack at the end of the level where you cant die, the record will be invalidated anyways.
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video (unless you completed the record on mobile). If you do not have a microphone, You are allowed to use the Click Sounds mod. However you must show that you have any botting software disabled If you do so, as clicks can be faked using this mod, This also applies on mobile.
+                        Have either source audio or clicks/taps in the video (unless you completed the record on mobile). If you do not have a microphone, you are allowed to use the Click Sounds mod. However, you must show that you have any botting software disabled/entirely uninstalled if you do so, as clicks can be faked using this mod. This also applies on mobile.
                     </p>
                     <p>
-                        The recording must have an entire previous attempt's entire death animation shown before the completion, This means that you need to show the run from 0%, Then the death of the player and the completition attempt.
+                        The recording must have an entire previous attempt's death animation shown before the completion. This means that you need to show the run from 0%, after the death of the player and then the completition attempt.
                     </p>
                     <p>
-                        The recording must also include the endscreen shown after the "Level Complete!" text appears, Or the completion will be invalidated.
+                        The recording must also include the endscreen shown after the "Level Complete!" text appears, or the completion will be invalidated.
                     </p>
                     <p>
-                        Do not use secret routes or bug routes, If this happens then your record will be invalidate.
+                        Do not use secret routes or bug routes. If this happens then your record will be invalidated.
                     </p>
                     <p>
-                        Do not use easy modes, Only a record of the unmodified level qualifies.
+                        Do not use easy modes. Only a record of the unmodified level qualifies.
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, We do not accept any records.
+                        Once a level falls onto the Legacy List, we do not accept any records.
                     </p>
                     <p>
-                        Every level that is a reupload won't be added to the top 10, this is to avoid random players reuploading they're levels and getting them into the top 10, this is also made to avoid top players from main servers to reupload a level and verify it.
+                        Every level that is a reupload won't be added to the top 10, this is to avoid random players reuploading their levels and getting them into the top 10. This is also made to avoid top players from main servers to reupload a level and verify it.
                     </p>
                 </div>
             </div>
