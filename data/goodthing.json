@@ -7,5 +7,12 @@
     "verification": "https://youtu.be/Qo46hXVWfGY?si=FdCu9JKT1LH3qfPQ",
     "percentToQualify": "100",
     "records": [
+       {
+            "user":"Caz",
+            "link":"https://www.youtube.com/watch?v=0wdhKIsEwRI",
+            "percent":100,
+            "hz":240
+         }
+        
     ]
 }
