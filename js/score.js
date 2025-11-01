@@ -1,7 +1,7 @@
 /**
  * Number of decimal digits to round to
  */
-const scale = 2;
+const scale = 1;
 
 /** Scoring shape parameters */
 const maxPoints = 400;   // Score at rank 1 (Top 1)
