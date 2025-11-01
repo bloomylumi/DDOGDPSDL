@@ -86,7 +86,7 @@ export function round(num) {
         let sign = '';
         if (+arr[1] + scale > 0) sign = '+';
         return +(
-            Number(Math.round((+arr[0] + 'e' + sign + (+arr[1] + scale))) + 'e-' + 2)
+            Math.round(+arr[0] + 'e' + sign + (+arr[1] + scale)) +
             'e-' +
             scale
         );
