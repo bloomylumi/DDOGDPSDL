@@ -79,14 +79,13 @@ function clamp01(x) {
 
 /** Round helper */
 export function round(num) {
-    if (!('' + num).includes('e')) {
-        return +(Math.round(num + 'e+' + scale) + 'e-' + scale);
-    } else {
-        const arr = ('' + num).split('e');
-        let sign = '';
-        if (+arr[1] + scale > 0) sign = '+';
-        return +(
-            Math.round(+arr[0] + 'e' + sign + (+arr[1] + scale)) + 'e-' + scale
-        );
-    }
+  if (!('' + num).includes('e')) {
+    return (+(Math.round(num + 'e+' + scale) + 'e-' + scale)).toFixed(scale);
+  } else {
+    const arr = ('' + num).split('e');
+    let sign = '';
+    if (+arr[1] + scale > 0) sign = '+';
+    return (+(Math.round(+arr[0] + 'e' + sign + (+arr[1] + scale)) + 'e-' + scale)).toFixed(scale);
+  }
+}
 }
