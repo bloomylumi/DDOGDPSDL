@@ -13,6 +13,12 @@
             "link":"https://www.youtube.com/watch?v=md-HLyoTRD0",
             "percent":100,
             "hz":165
-     }
+     },
+        {
+        "user":"BABAGD",
+        "link":"https://youtu.be/9NiP6IFJ4dg?si=H0U8elwTNW2HBTws",
+        "percent":100,
+        "hz":240
+         }
     ]
 }
