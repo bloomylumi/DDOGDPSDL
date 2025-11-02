@@ -8,12 +8,6 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
-        {
-            "user":"Caz",
-            "link":"https://www.youtube.com/watch?v=jt6KlD6nvVQ",
-            "percent":100,
-            "hz":240
-        }
     ]
 
 }
