@@ -1,1 +1,11 @@
-
+{
+    "id": 10496,
+    "name": "mark",
+    "author": "ted",
+    "creators": ["ted"],
+    "verifier": "ted",
+    "verification": "https://www.youtube.com/watch?v=RMEktsmmwjI",
+    "percentToQualify": "100",
+    "records": [
+    ]
+}
