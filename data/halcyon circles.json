@@ -12,6 +12,12 @@
             "link":"https://www.youtube.com/watch?v=Z6W-vcBjh4I",
             "percent":100,
             "hz":165
+         },
+         {
+            "user":"nsttech",
+            "link":"https://www.youtube.com/watch?v=JKoDBa-kO4w&feature=youtu.be",
+            "percent":100,
+            "hz":165
         }
     ]
 }
