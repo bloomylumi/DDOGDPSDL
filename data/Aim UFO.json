@@ -7,5 +7,12 @@
     "verification": "https://www.youtube.com/watch?v=jkwoI5e5Z4w",
     "percentToQualify": "100",
     "records": [
+         {
+            "user":"Menda",
+            "link":"https://youtu.be/85u4qkOa58M?si=UCAF4ySdmf60XnJB",
+            "percent":100,
+            "hz":60,
+             "mobile": true
+         }
     ]
 }
