@@ -31,6 +31,12 @@
             "link":"https://www.youtube.com/watch?v=59RtyYg2D4k",
             "percent":100,
             "hz":480
+        },
+        {
+            "user":"fribble",
+            "link":"https://youtu.be/WHO7iEkbTXU",
+            "percent":100,
+            "hz":180
         }
     ]
 }
