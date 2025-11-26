@@ -13,7 +13,13 @@
             "link":"https://www.youtube.com/watch?v=E9j_zQ6YwXU",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"JPX",
+            "link":"https://www.youtube.com/watch?v=AeXnjD4Or0E",
+            "percent":100,
+            "hz":180
          }
     ]
-
 }
+
