@@ -120,7 +120,14 @@
             "user":"fribble",
             "link":"https://youtu.be/ZHci5UKzh1g",
             "percent":100,
+             "hz":180
+         },
+         {
+            "user":"JPX",
+            "link":"https://www.youtube.com/watch?v=X35gzZkndec",
+            "percent":100,
             "hz":180
          }
     ]
 }
+
