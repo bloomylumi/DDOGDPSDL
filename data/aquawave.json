@@ -133,6 +133,12 @@
             "link":"https://www.youtube.com/watch?v=OYk4CuZssSA",
             "percent":100,
             "hz":60
+         },
+         {
+            "user":"PolskiTYP",
+            "link":"https://www.youtube.com/watch?v=Yh9wEll15zU",
+            "percent":100,
+            "hz":180
          }
     ]
 }
