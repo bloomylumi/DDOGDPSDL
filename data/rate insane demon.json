@@ -96,8 +96,15 @@
             "user":"Menda",
             "link":"https://youtu.be/CT28-02WI6g?si=1NhzRpW8ChRRAoli",
             "percent":100,
+            "hz":60
+            "mobile": true
+         },
+         {
+            "user":"Kinetic16",
+            "link":"https://www.youtube.com/watch?v=OYk4CuZssSA",
+            "percent":100,
             "hz":60,
-             "mobile": true
+             
          }
     ]
 }
