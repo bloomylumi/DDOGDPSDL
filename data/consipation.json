@@ -72,7 +72,13 @@
             "user":"ted",
             "link":"https://www.youtube.com/watch?v=SrLNTpEPVF0",
             "percent":100,
-            "hz":165
+             "hz":165
+         },
+         {
+            "user":"Kinetic16",
+            "link":"https://www.youtube.com/watch?v=OYk4CuZssSA",
+            "percent":100,
+            "hz":60
          }
     ]
 }
