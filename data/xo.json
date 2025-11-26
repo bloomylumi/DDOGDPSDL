@@ -18,6 +18,12 @@
             "user":"JPX",
             "link":"https://www.youtube.com/watch?v=AeXnjD4Or0E",
             "percent":100,
+            "hz":240
+         },
+         {
+            "user":"Fribble",
+            "link":"  https://youtu.be/T7lVRZqpk-w",
+            "percent":100,
             "hz":180
          }
     ]
