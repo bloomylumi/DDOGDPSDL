@@ -19,7 +19,12 @@
             "link":"https://www.youtube.com/watch?v=sMmThGEBeYY",
             "percent":100,
             "hz":120
-         }
-        
+         },
+         {
+            "user":"fribble",
+            "link":"https://youtu.be/4MFTGOW-4DQ",
+            "percent":100,
+            "hz":180
+         } 
     ]
 }
