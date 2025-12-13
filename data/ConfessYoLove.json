@@ -1,0 +1,23 @@
+{
+    "id": 12529,
+    "name": "ConfessYoLove Cricle",
+    "author": "TRCR22",
+    "creators": ["TRCR22"],
+    "verifier": "TRCR22",
+    "verification": "https://youtu.be/31iJE3Y8lK0",
+    "percentToQualify": "100",
+    "records": [
+         {
+            "user":"Takoe",
+            "link":"https://youtu.be/_aU_y3io9wo",
+            "percent":100,
+            "hz":240
+         },
+         {
+            "user":"robbingthetop",
+            "link":"https://www.youtube.com/watch?v=XasftbcdALU",
+            "percent":100,
+            "hz":180
+         }
+    ]
+}
