@@ -8,6 +8,12 @@
     "percentToQualify": 100,
     "password": "Not Copyable",
     "records": [
+        {
+            "user":"jrpresley08",
+            "link":"https://www.youtube.com/watch?v=5A5gcz6uSbk",
+            "percent":100,
+            "hz":120
+         }
 
     ]
 }
