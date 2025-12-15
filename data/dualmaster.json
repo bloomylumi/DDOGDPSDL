@@ -19,6 +19,12 @@
             "link":"https://www.youtube.com/watch?v=q15s8fooV_E",
             "percent":100,
             "hz":120
+         },
+         {
+            "user":"spnv",
+            "link":"https://www.youtube.com/watch?v=a_AoRweljN0",
+            "percent":100,
+            "hz":240
          }
     ]
 }
