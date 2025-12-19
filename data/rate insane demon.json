@@ -104,6 +104,12 @@
             "link":"https://www.youtube.com/watch?v=OYk4CuZssSA",
             "percent":100,
             "hz":60
-         }
+         },
+         {
+            "user":"DenDen",
+            "link":"https://youtu.be/ZKRn79qsq8U",
+            "percent":100,
+            "hz":240
+        }
     ]
 }
