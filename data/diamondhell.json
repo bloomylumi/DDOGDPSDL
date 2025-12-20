@@ -58,7 +58,7 @@
          },
          {
             "user":"amnezie",
-            "link":"https://youtu.be/kcwVrLn_yOs",
+            "link":"https://www.youtube.com/watch?v=kcwVrLn_yOs",
             "percent":100,
             "hz":360
          },
@@ -67,6 +67,12 @@
             "link":"https://www.youtube.com/watch?v=OYk4CuZssSA",
             "percent":100,
             "hz":60
+         },
+         {
+            "user":"DenDen",
+            "link":"https://www.youtube.com/watch?v=Gz87Wyvo4KE",
+            "percent":100,
+            "hz":240
          }
     ]
 }
