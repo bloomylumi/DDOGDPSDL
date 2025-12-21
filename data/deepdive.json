@@ -1,0 +1,18 @@
+{
+    "id": 12713,
+    "name": "Deep Dive",
+    "author": "ssolarig",
+    "creators": ["ssolarig"],
+    "verifier": "ssolarig",
+    "verification": "https://www.youtube.com/watch?v=qKpw_FnDux0",
+    "percentToQualify": "100",
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user":"spnv",
+            "link":"https://www.youtube.com/watch?v=Jt21KNJohew",
+            "percent":100,
+            "hz":240
+         }
+    ]
+}
