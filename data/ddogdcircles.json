@@ -103,6 +103,12 @@
             "link":"https://www.youtube.com/watch?v=r7J01Gj3Cto",
             "percent":100,
             "hz":240
+         },
+         {
+            "user":"wormate",
+            "link":"https://youtu.be/SmczuSfdWeI",
+            "percent":100,
+            "hz":165
          }
     ]
 }
