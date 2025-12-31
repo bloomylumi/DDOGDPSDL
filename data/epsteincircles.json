@@ -8,6 +8,23 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+           {
+            "user":"kdawguwu610ohye",
+            "link":"https://youtu.be/FfdBc5Bd6A4",
+            "percent":100,
+            "hz":360
+            },
+            {
+            "user":"Hamburger",
+            "link":"https://youtu.be/MOYWqKrPBWM?si=55E1XLfq9y_nqFrb",
+            "percent":100,
+            "hz":144
+           },
+           {
+            "user":"ted",
+            "link":"https://www.youtube.com/watch?v=NllYwsY-5yE",
+            "percent":100,
+            "hz":165
+         }
     ]
-
 }
