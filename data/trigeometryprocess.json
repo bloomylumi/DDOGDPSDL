@@ -7,5 +7,11 @@
     "verification": "https://youtu.be/TYye4GtJV5s?si=S9HtfrtF7lBtnwL2",
     "percentToQualify": "100",
     "records": [
+         {
+            "user":"ted",
+            "link":"https://www.youtube.com/watch?v=kRfMUrRmfI8",
+            "percent":100,
+            "hz":165
+         }
     ]
 }
