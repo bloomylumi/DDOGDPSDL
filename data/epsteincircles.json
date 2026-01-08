@@ -25,6 +25,12 @@
             "link":"https://www.youtube.com/watch?v=NllYwsY-5yE",
             "percent":100,
             "hz":165
+           },
+           {
+            "user":"menda",
+            "link":"https://youtu.be/kyPS_cG_wsQ",
+            "percent":100,
+            "hz":180
          }
     ]
 }
