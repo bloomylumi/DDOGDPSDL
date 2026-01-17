@@ -24,6 +24,12 @@
             "link":"https://www.youtube.com/watch?v=e3tS9N30JKI",
             "percent":100,
             "hz":120
+         },
+         {
+            "user":"bahglel",
+            "link":"https://youtu.be/FFHEBNbTsw0",
+            "percent":100,
+            "hz":360
          }
     ]
 }
