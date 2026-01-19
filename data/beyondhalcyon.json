@@ -10,6 +10,13 @@
     {"user":"jrpresley08",
      "link":"https://www.youtube.com/watch?v=vURgJzetKWM",
      "percent":100,
-     "hz":120}
+     "hz": 120
+        },
+        {
+            "user":"turboflash",
+            "link":"https://youtu.be/Rbxsg9K_u1w",
+            "percent":100,
+            "hz":60
+         }
     ]
 }
