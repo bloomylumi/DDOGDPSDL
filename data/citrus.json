@@ -7,5 +7,11 @@
     "verification": "https://www.youtube.com/watch?v=MhbhbFQxqyk",
     "percentToQualify": "100",
     "records": [
+        {
+            "user":"BABAGD",
+            "link":"https://www.youtube.com/watch?v=5ywL_jW1f_E",
+            "percent":100,
+            "hz":240
+         }
     ]
 }
