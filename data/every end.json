@@ -18,9 +18,14 @@
             "user":"jrpresley08",
             "link":"https://www.youtube.com/watch?v=j1RaSQ_M9Xk",
             "percent":100,
-            "hz":120
+           "hz":120
+        },
+        {
+            "user":"Jitz",
+            "link":"https://www.youtube.com/watch?v=DxAuIXzc5cs",
+            "percent":100,
+            "hz":60
         }
 
     ]
 }
-

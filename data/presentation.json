@@ -24,6 +24,12 @@
             "link":"https://www.youtube.com/watch?v=lBmV9srznaw",
             "percent":100,
             "hz":100
+        },
+        {
+            "user":"PotatoIsTrying",
+            "link":"https://youtu.be/76N10HFYRrw",
+            "percent":100,
+            "hz":60
         }
         
     ]

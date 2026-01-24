@@ -13,6 +13,12 @@
             "link":"https://www.youtube.com/watch?v=nIewJeDHgwU",
             "percent":100,
             "hz":120
+         },
+         {
+            "user":"vvaid",
+            "link":"https://youtu.be/OStCd6Ai8Z4",
+            "percent":100,
+            "hz":240
          }
     ]
 }
