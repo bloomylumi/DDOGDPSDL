@@ -31,6 +31,12 @@
             "link":"https://www.youtube.com/watch?v=YEOON5eHpOo",
             "percent":100,
             "hz":120
+         },
+         {
+            "user":"Hamburger",
+            "link":"https://youtu.be/2sroNxWaxIg?si=cW8Codffcsv3v-HK",
+            "percent":100,
+            "hz":144
          }
     ]
 }
