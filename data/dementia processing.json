@@ -72,6 +72,13 @@
             "percent":100,
             "hz":180
             
+         },
+         {
+            "user":"Hamburger",
+            "link":"https://youtu.be/FXWr5uN-4Vc?si=y0yMhIyXI5GXfkZo",
+            "percent":100,
+            "hz":144
+            
          }
     ]
 }
