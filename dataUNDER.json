@@ -1,0 +1,17 @@
+{
+    "id": 13774,
+    "name": "UNDER",
+    "author": "ted",
+    "creators": ["ted", "pancake"],
+    "verifier": "ted",
+    "verification": "https://www.youtube.com/watch?v=0DbrmZ513wY",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "BABAGD",
+            "link": "https://www.youtube.com/watch?v=JcaSoUrD1fE",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
