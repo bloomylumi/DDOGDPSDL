@@ -1,0 +1,17 @@
+{
+    "id": 13483,
+    "name": "Thermix",
+    "author": "TurboFlash",
+    "creators": ["TurboFlash", "ExtremeSpe98"],
+    "verifier": "TurboFlash",
+    "verification": "https://www.youtube.com/watch?v=Rbxsg9K_u1w",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "BABAGD",
+            "link": "https://youtu.be/ogYN6jw--Zk?si=SrmyuuR4BWD7ZAfz",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
