@@ -1,9 +1,9 @@
 {
     "id": 5799,
     "name": "The Travel",
-    "author": "lilcanez",
-    "creators": ["lilcanez"],
-    "verifier": "lilcanez",
+    "author": "tostapanez",
+    "creators": ["tostapanez"],
+    "verifier": "tostapanez",
     "verification": "https://youtu.be/kWHkIMTHtIE?si=mUEc8TR9MA9mu-fJ",
     "percentToQualify": "100",
     "password": "Not Copyable",
@@ -65,3 +65,4 @@
          }
     ]
 }
+
