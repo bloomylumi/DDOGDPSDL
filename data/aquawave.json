@@ -163,12 +163,18 @@
             "link":"https://youtu.be/rJziF4lKTFU?si=AgwzzteSiHQT2_j8",
             "percent":100,
             "hz":240
-         },
+        },
         {
             "user":"summitt",
             "link":"https://www.youtube.com/watch?v=YZ6r2LLSNH4",
             "percent":100,
             "hz":240
+        },
+        {
+            "user":"Beli9002",
+            "link":"https://youtu.be/FLWCEEBvF98?si=qYlr-iYDzuAM-ZDu",
+            "percent":100,
+            "hz":144
         }
     ]
 }
