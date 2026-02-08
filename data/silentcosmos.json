@@ -8,6 +8,11 @@
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
+         {
+            "user":"bahgel",
+            "link":"https://www.youtube.com/watch?v=3Hv0F9h1eOg",
+            "percent":100,
+            "hz":360
+         }
     ]
-
 }
