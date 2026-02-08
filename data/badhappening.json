@@ -7,5 +7,12 @@
     "verification": "https://www.youtube.com/watch?v=J4CHdrCM7CQ",
     "percentToQualify": "100",
     "records": [
+         {
+            "user":"TRCR22",
+            "link":"https://www.youtube.com/watch?v=5db5d2iHoCE",
+            "percent":100,
+            "hz":240
+         }
+        
     ]
 }
