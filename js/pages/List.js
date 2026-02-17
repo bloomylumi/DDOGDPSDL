@@ -112,7 +112,7 @@ export default {
                         Achieved the record on the level that is listed on the site? - please check the level ID before you submit a record. Custom LDM's that make the level way easier are not allowed, But there are some exceptions, for example if the level has a high amount of objects that makes a frame drop for the user, then the user is allowed to use the ldm. Same if the LDM doesnt affect the difficulty of the level.
                     </p>
                     <p>
-                        If the record is completed with any type of cheating (Speedhack, noclip, show hitbox and more), then the record will be invalidated. This applies to every part of the level itself, so if you use speedhack at the end of the level where you cant die, the record will be invalidated anyways.
+                        If the record is completed with any type of cheating (Speedhack, noclip (Noclip Accuracy Included even if it's a no death run), show hitbox and more), then the record will be invalidated. This applies to every part of the level itself, so if you use speedhack at the end of the level where you cant die, the record will be invalidated anyways.
                     </p>
                     <p>
                         Have either source audio or clicks/taps in the video (unless you completed the record on mobile). If you do not have a microphone, you are allowed to use the Click Sounds mod. However, you must show that you have any botting software disabled/entirely uninstalled if you do so, as clicks can be faked using this mod. This also applies on mobile.
