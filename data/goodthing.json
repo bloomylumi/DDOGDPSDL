@@ -7,6 +7,12 @@
     "verification": "https://youtu.be/Qo46hXVWfGY?si=FdCu9JKT1LH3qfPQ",
     "percentToQualify": "100",
     "records": [
+        {
+            "user":"xuma",
+            "link":"https://www.youtube.com/watch?v=sBZWyugP8i0",
+            "percent":100,
+            "hz":180
+         }
         
     ]
 }
