@@ -91,6 +91,12 @@
             "link":"https://www.youtube.com/watch?v=021N1sf4gPI",
             "percent":100,
             "hz":360
-         }
+      },
+      {
+            "user":"trickgmd",
+            "link":"https://www.youtube.com/watch?v=Ze10WJ7sxDw",
+            "percent":100,
+            "hz":60
+      }
     ]
 }
