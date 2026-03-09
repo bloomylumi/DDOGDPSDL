@@ -115,7 +115,7 @@ export default {
                         If the record is completed with any type of cheating (Speedhack, noclip (Noclip Accuracy Included even if it's a no death run), show hitbox and more), then the record will be invalidated. This applies to every part of the level itself, so if you use speedhack at the end of the level where you cant die, the record will be invalidated anyways.
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video (unless you completed the record on mobile). If you do not have a microphone, you are allowed to use the Click Sounds mod. However, you must show that you have any botting software disabled/entirely uninstalled if you do so, as clicks can be faked using this mod. This also applies on mobile.
+                        You must have audible clicks/taps in the video. You are not allowed to use the "clicksounds" mod for any reason, as this makes it harder to distinguish between legit and cheated completions.
                     </p>
                     <p>
                         The recording must have an entire previous attempt's death animation shown before the completion. This means that you need to show the run from 0%, after the death of the player and then the completition attempt.
