@@ -181,8 +181,13 @@
             "link":"https://youtu.be/VlUNoc3bglk",
             "percent":100,
             "hz":360
-        }
+         },
+         {
+            "user":"doriopork",
+            "link":"https://youtu.be/en8c3bWNWsI",
+            "percent":100,
+            "hz":60
+         }
     ]
 }
-
 

@@ -49,10 +49,14 @@
             "user":"Brecken",
             "link":"https://youtu.be/g5aizdN7zCA?si=cjuH26BzZPbouE8X",
             "percent":100,
-            "hz":240
+             "hz":240
+         },
+         {
+            "user":"doriopork",
+            "link":"https://www.youtube.com/watch?v=MJM5MLvYxKA",
+            "percent":100,
+            "hz":60
          }
     ]
 }
-
-
 

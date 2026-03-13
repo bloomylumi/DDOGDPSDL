@@ -18,7 +18,13 @@
             "user":"Max",
             "link":"https://www.youtube.com/watch?v=QgGJpg8KE3E",
             "percent":100,
-            "hz":180
+            "hz":165
+         },
+         {
+            "user":"kdawguwu610ohye",
+            "link":"https://youtu.be/5MLsFfSSho0",
+            "percent":100,
+            "hz":360
          }
     ]
 }
