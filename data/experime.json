@@ -4,13 +4,13 @@
     "author": "QuixonicGD",
     "creators": ["QuixonicGD"],
     "verifier": "QuixonicGD",
-    "verification": "https://youtu.be/yGLwbUUMFfs?si=zGCaE3VoKfU7Y6aS",
+    "verification": "https://youtu.be/yGLwbUUMFfs",
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
         {
             "user":"TurboFlash",
-            "link":"https://youtu.be/ntCWrkWXlZg?si=TzlvsY8bvX7OiQaw",
+            "link":"https://youtu.be/ntCWrkWXlZg",
             "percent":100,
             "hz":60
         },
@@ -34,7 +34,7 @@
          },
          {
             "user":"JDPro",
-            "link":"https://youtu.be/k_glryEVHkc?si=0icaX29YcwWp8W_M",
+            "link":"https://youtu.be/k_glryEVHkc",
             "percent":100,
             "hz":90,
             "mobile": true
@@ -59,7 +59,7 @@
          },
          {
             "user":"BABAGD",
-            "link":"https://youtu.be/ng5q5P1JN_k?si=O2TQc_-eK3NAR4Nq",
+            "link":"https://youtu.be/ng5q5P1JN_k",
             "percent":100,
             "hz":240
          }

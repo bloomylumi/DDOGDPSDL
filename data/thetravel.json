@@ -4,7 +4,7 @@
     "author": "tostapanez",
     "creators": ["tostapanez"],
     "verifier": "tostapanez",
-    "verification": "https://youtu.be/kWHkIMTHtIE?si=mUEc8TR9MA9mu-fJ",
+    "verification": "https://youtu.be/kWHkIMTHtIE",
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
@@ -52,7 +52,7 @@
         },
         {
             "user":"Menda",
-            "link":"https://youtu.be/gajSITSFCmc?si=q44oSbkG8sdTmSDJ",
+            "link":"https://youtu.be/gajSITSFCmc",
             "percent":100,
             "hz":60,
             "mobile": true

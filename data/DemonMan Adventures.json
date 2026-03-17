@@ -4,7 +4,7 @@
     "author": "ioi890",
     "creators": ["ioi890"],
     "verifier": "BABAGD",
-    "verification": "https://youtu.be/6XmqYUkhB18?si=5DE5nPtJyXZNqTWp",
+    "verification": "https://youtu.be/6XmqYUkhB18",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
@@ -16,7 +16,7 @@
         },
         {
             "user":"Menda",
-            "link":"https://youtu.be/albQzoXWwjA?si=MXuGLShy7vOSzRwR",
+            "link":"https://youtu.be/albQzoXWwjA",
             "percent":100,
             "hz":60,
             "mobile":true

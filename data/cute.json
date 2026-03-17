@@ -4,19 +4,19 @@
     "author": "tostapanez",
     "creators": ["tostapanez"],
     "verifier": "tostapanez",
-    "verification": "https://youtu.be/kFVEsNjC3kU?si=IJw_OfgItsA8k_f1",
+    "verification": "https://youtu.be/kFVEsNjC3kU",
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
         {
             "user":"TurboFlash",
-            "link":"https://youtu.be/TAbVFJrc2Xg?si=m-ucJKgM-4BGB2PT",
+            "link":"https://youtu.be/TAbVFJrc2Xg",
             "percent":100,
             "hz":60
         },
         {
             "user":"axel",
-            "link":"https://youtu.be/GppDhB3KdcA?si=y92rWl4EFd3c0sA6",
+            "link":"https://youtu.be/GppDhB3KdcA",
             "percent":100,
             "hz":240
         },
@@ -40,7 +40,7 @@
         },
         {
             "user":"BABAGD",
-            "link":"https://youtu.be/ng5q5P1JN_k?si=O2TQc_-eK3NAR4Nq",
+            "link":"https://youtu.be/ng5q5P1JN_k",
             "percent":100,
             "hz":240
         },

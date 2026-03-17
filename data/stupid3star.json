@@ -4,7 +4,7 @@
     "author": "coolkid363",
     "creators": ["coolkid363"],
     "verifier": "coolkid363",
-    "verification": "https://youtu.be/pOUx3jnPHXk?si=YhfgAgIHpz_e-8jU",
+    "verification": "https://youtu.be/pOUx3jnPHXk",
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
@@ -82,14 +82,14 @@
          },
          {
             "user":"BABAGD",
-            "link":"https://youtu.be/s_rJE6LnxTo?si=I1EM3hSkqDJybTQL",
+            "link":"https://youtu.be/s_rJE6LnxTo",
             "percent":100,
             "hz":120,
             "mobile":true
         },
         {
             "user":"Veepo",
-            "link":"https://youtu.be/4Sq7YA5NCN8?si=oXt8oirLoBI0Jyaq",
+            "link":"https://youtu.be/4Sq7YA5NCN8",
             "percent":100,
             "hz":240
         }

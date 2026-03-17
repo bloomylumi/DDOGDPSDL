@@ -4,7 +4,7 @@
     "author": "QuixonicGD",
     "creators": ["QuixonicGD"],
     "verifier": "QuixonicGD",
-    "verification": "https://youtu.be/097F2PFQF4w?si=elsqiiNCaaOl1Nbi",
+    "verification": "https://youtu.be/097F2PFQF4w",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
@@ -28,7 +28,7 @@
          },
          {
             "user":"BABAGD",
-            "link":"https://youtu.be/s_rJE6LnxTo?si=I1EM3hSkqDJybTQL",
+            "link":"https://youtu.be/s_rJE6LnxTo",
             "percent":100,
             "hz":120,
             "mobile":true

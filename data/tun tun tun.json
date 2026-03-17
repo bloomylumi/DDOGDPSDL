@@ -4,13 +4,13 @@
     "author": "hamburger",
     "creators": ["hamburger"],
     "verifier": "tostapanez",
-    "verification": "https://youtu.be/3Ke9QUXteT8?si=Hl9CP1v8-ab11xTb",
+    "verification": "https://youtu.be/3Ke9QUXteT8",
     "percentToQualify": "100",
     "password": "Free To Copy",
     "records": [
          {
             "user":"Hamburger",
-            "link":"https://youtu.be/4RLhPj5PaIc?si=HVNoXSPTT_gLgtH8",
+            "link":"https://youtu.be/4RLhPj5PaIc",
             "percent":100,
             "hz":144
          },

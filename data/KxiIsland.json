@@ -4,7 +4,7 @@
     "author": "Kxi",
     "creators": ["Kxi"],
     "verifier": "Kxi",
-    "verification": "https://youtu.be/6IheJLps7y4?si=u3KJZPgL2ohIibpF",
+    "verification": "https://youtu.be/6IheJLps7y4",
     "percentToQualify": "100",
     "password": "Not Copyable",
     "records": [
@@ -22,7 +22,7 @@
      },
      {
         "user":"Birbyn",
-        "link":"https://youtu.be/5we4ZsFhgcY?si=QAG0MtD8WjFpBIyz",
+        "link":"https://youtu.be/5we4ZsFhgcY",
         "percent":100,
         "hz":240
      },
@@ -40,13 +40,13 @@
    },
    {
       "user":"tostapanez",
-      "link":"https://youtu.be/bC_q0cul_oU?si=SIFXvphavkPfaX7Z",
+      "link":"https://youtu.be/bC_q0cul_oU",
       "percent":100,
       "hz":144
    },
    {
       "user":"cheesedude",
-      "link":"https://youtu.be/cLxjqT2xb9U?si=2moKyB0SZTn10JYu",
+      "link":"https://youtu.be/cLxjqT2xb9U",
       "percent":100,
       "hz":60
    },
@@ -76,7 +76,7 @@
    },
    {
       "user":"BABAGD",
-      "link":"https://youtu.be/e2SJ5MiJDrY?si=cvFr4LhgP9M84iag",
+      "link":"https://youtu.be/e2SJ5MiJDrY",
       "percent":100,
       "hz":240
    },
