@@ -43,6 +43,12 @@
             "link":"https://youtu.be/xaH4aPPTKK0",
             "percent":100,
             "hz":360
+         },
+         {
+            "user":"JPX",
+            "link":"https://www.youtube.com/watch?v=6ZdHgBSQOHE",
+            "percent":100,
+            "hz":180
          }
     ]
 }
