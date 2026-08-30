@@ -19,7 +19,7 @@ const tailFractionAtEnd     = 0.01;
 export function score(rank, percent, minPercent) {
     // If rank is outside the scoring range, return 0
     if (rank >= maxRank) {
-        return 10;
+        return 0;
     }
 
     // From rank 76+, only 100% counts
